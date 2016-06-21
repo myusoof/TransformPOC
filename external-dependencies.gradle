@@ -1,0 +1,31 @@
+ext
+{
+    jacksonVersion = '2.2.2'
+    junit ='junit:junit:4.11'
+    groovy = 'org.codehaus.groovy:groovy-all:2.4.6'
+    restClient = [group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.6']
+    jackson = [ "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}", "com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}", "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"]
+    jacksonJaxRs = "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:${jacksonVersion}"
+    jacksonDataType = "com.fasterxml.jackson.datatype:jackson-datatype-joda:${jacksonVersion}"
+    testNG = "org.testng:testng:6.8.1"
+    restClient1 = [ group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.7.1']
+    jaxws= 'javax.ws.rs:javax.ws.rs-api:2.0'
+    cucumber= [ group: 'info.cukes', name: 'cucumber-core', version: '1.2.4']
+    cucumberGroovy= [ group: 'info.cukes', name: 'cucumber-groovy', version: '1.2.4']
+    cucumberTestng = [group: 'info.cukes', name: 'cucumber-testng', version: '1.2.4']
+    masterThought =  "net.masterthought:cucumber-reporting:0.0.21"
+    totalLazy = [ group:'com.googlecode.totallylazy', name:'totallylazy', version:'991']
+    cucumberJunit = "info.cukes:cucumber-junit:1.2.4"
+
+    //appium
+    //compile fileTree(dir: 'lib', include: ['*.jar'])
+
+    appium_java_client = 'io.appium:java-client:3.3.0'
+    googleJson = 'com.googlecode.json-simple:json-simple:1.1.1'
+    httpclient =  'org.apache.httpcomponents:httpclient:4.5.1'
+    commonLang = 'commons-lang:commons-lang:2.6'
+    gsonGoogle = 'com.google.code.gson:gson:2.5'
+    googleHttpClient = 'com.google.http-client:google-http-client:1.21.0'
+    testdriod =  'com.testdroid:testdroid-api:2.9'
+    googleJackson = 'com.google.http-client:google-http-client-jackson2:1.21.0'
+}

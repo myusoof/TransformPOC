@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Perform a get call",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-get-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5651440267,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the get country service",
+            "match": {
+              "location": "RestClientSteps.groovy:21"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Perform a get call with query paramater",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-get-call-with-query-paramater",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8377111267,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I git the get call with query param",
+            "match": {
+              "location": "RestClientSteps.groovy:28"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Perform a post call",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-post-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3423236194,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform the post call",
+            "match": {
+              "location": "RestClientSteps.groovy:33"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Perform scenario with parameter",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-scenario-with-parameter",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2782477,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I perform simple call with paramater",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paramater",
+                  "offset": 27
+                }
+              ],
+              "location": "RestClientSteps.groovy:43"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "I have to test the service call",
+    "description": "I have to get the service call using cucumber",
+    "id": "i-have-to-test-the-service-call",
+    "keyword": "Feature",
+    "uri": "TransformPoC.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Perform a get call",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-get-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2555729289,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the get country service",
+            "match": {
+              "location": "RestClientSteps.groovy:21"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Perform a get call with query paramater",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-get-call-with-query-paramater",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 404446654,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I git the get call with query param",
+            "match": {
+              "location": "RestClientSteps.groovy:28"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Perform a post call",
+        "description": "",
+        "id": "i-have-to-test-the-service-call;perform-a-post-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 415080967,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform the post call",
+            "match": {
+              "location": "RestClientSteps.groovy:33"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "I have to test the service call",
+    "description": "I have to get the service call using cucumber",
+    "id": "i-have-to-test-the-service-call",
+    "keyword": "Feature",
+    "uri": "TransformPoC_1.feature"
+  }
+]

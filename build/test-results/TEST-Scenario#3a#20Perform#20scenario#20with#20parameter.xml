@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Perform scenario with parameter" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-05-31T15:09:54" hostname="csn-cgz-cae-071" time="0.0">
+  <properties/>
+  <testcase name="Given I perform simple call with paramater" classname="Scenario: Perform scenario with parameter" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Perform scenario with parameter" time="0.008"/>
+  <system-out><![CDATA[
+  @restService
+  Scenario: Perform a post call   ?[90m# TransformPoC.feature:13?[0m
+    ?[32mGiven ?[0m?[32mI perform the post call?[0m ?[90m# RestClientSteps.groovy:33?[0m
+paramater
+paramater
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

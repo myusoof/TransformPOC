@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Perform a post call" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-05-31T15:09:54" hostname="csn-cgz-cae-071" time="0.966">
+  <properties/>
+  <testcase name="Given I perform the post call" classname="Scenario: Perform a post call" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Perform a post call" time="0.528"/>
+  <testcase name="Given I perform the post call" classname="Scenario: Perform a post call" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Perform a post call" time="0.321"/>
+  <system-out><![CDATA[
+  @restService
+  Scenario: Perform a get call with query paramater ?[90m# TransformPoC.feature:9?[0m
+    ?[32mGiven ?[0m?[32mI git the get call with query param?[0m       ?[90m# RestClientSteps.groovy:28?[0m
+
+  @restService
+  Scenario: Perform a get call with query paramater ?[90m# TransformPoC_1.feature:9?[0m
+    ?[32mGiven ?[0m?[32mI git the get call with query param?[0m       ?[90m# RestClientSteps.groovy:28?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

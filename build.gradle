@@ -1,0 +1,116 @@
+version '1.0-SNAPSHOT'
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'base'
+apply plugin: 'application'
+apply plugin: 'maven'
+apply from: 'external-dependencies.gradle'
+sourceCompatibility = 1.5
+
+/*archivesBaseName = 'TransformPoC'
+group = 'helper'
+version = '1.0'*/
+buildscript {
+    repositories {
+
+        mavenCentral()
+    }
+    dependencies {
+        // classpath "org.codehaus.gpars:gpars:1.2.1", "net.masterthought:cucumber-reporting:0.4.0"
+       // classpath files("com/transform/helper")
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+sourceSets.main.groovy.srcDirs = ['src/main/groovy']
+sourceSets.main.resources.srcDirs = ['src/main/resources']
+sourceSets.test.groovy.srcDirs = ['src/test/groovy']
+sourceSets.test.resources.srcDirs = ['src/test/resources']
+
+dependencies {
+    compile restClient1, jackson, jacksonJaxRs, jacksonDataType, jaxws
+    compile cucumberGroovy
+    testCompile cucumberJunit
+    testCompile junit
+    compile group: 'net.masterthought', name: 'cucumber-reporting', version: "0.4.0"
+    compile group: 'com.googlecode.totallylazy', name: 'totallylazy', version: '1.20'
+    compile groovy
+    testCompile groovy
+    compile 'io.appium:java-client:3.3.0'
+    //compile fileTree(dir: 'lib', include: ['*.jar'])
+
+    compile ("com.googlecode.json-simple:json-simple:1.1.1"){
+        exclude group : 'junit'
+        exclude module: 'junit'
+    }
+    compile appium_java_client, httpclient, commonLang, gsonGoogle, googleHttpClient, testdriod, googleJackson
+
+    //compile files("$buildDir/classes/main")
+}
+
+repositories {
+    maven {
+        url "http://repo.bodar.com/"
+    }
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
+
+def getDate(){
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmmss')
+    return formattedDate
+}
+
+def args = ['--strict', '--monochrome',
+            '--glue', 'src/test/groovy/com/transform/steps', 'src/test/groovy/com/transform/features',
+            '--format', "html:target/transform-html-report${getDate()}",
+            //'--format', 'junit:target/cucumber-junit-report.xml',
+            '--format', "json:target/transform-report${getDate()}.json",
+            '--tags','@restService,@nottoinclude']
+
+
+task cucumber { 
+    dependsOn assemble
+    doLast {
+        runCucumberTest(args)
+    }
+}
+
+def runCucumberTest(cukeArgs) {
+    println "** Cucumber arguments: " + cukeArgs
+    javaexec {
+        main = "cucumber.api.cli.Main"
+        classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+        args = cukeArgs
+    }
+}
+
+mainClassName = "com.transform.helper.ReportingClass"
+
+task cucumberReport(type: JavaExec) {
+    main = "com.transform.helper.ReportingClass"
+    classpath = sourceSets.test.runtimeClasspath
+}
+
+cucumberReport {
+    shouldRunAfter "cucumber"
+}
+
+task updateArgs(dependsOn: "classes") << {
+    doFirst() {
+        println "testing" + ConfigurationHelper.getTags()
+        args << ConfigurationHelper.getTags()
+        println args
+    }
+}
+

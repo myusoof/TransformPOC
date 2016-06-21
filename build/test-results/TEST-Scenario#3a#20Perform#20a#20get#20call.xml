@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Perform a get call" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-05-31T15:09:53" hostname="csn-cgz-cae-071" time="1.369">
+  <properties/>
+  <testcase name="Given I hit the get country service" classname="Scenario: Perform a get call" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Perform a get call" time="1.064"/>
+  <testcase name="Given I hit the get country service" classname="Scenario: Perform a get call" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Perform a get call" time="0.343"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
