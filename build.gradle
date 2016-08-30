@@ -18,7 +18,7 @@ buildscript {
     }
     dependencies {
         // classpath "org.codehaus.gpars:gpars:1.2.1", "net.masterthought:cucumber-reporting:0.4.0"
-       // classpath files("com/transform/helper")
+       // classpath files("com/RestAutomation/helper")
     }
 }
 
@@ -50,6 +50,11 @@ dependencies {
     }
     compile appium_java_client, httpclient, commonLang, gsonGoogle, googleHttpClient, testdriod, googleJackson
 
+    // https://mvnrepository.com/artifact/io.selendroid/selendroid-test-app
+    compile group: 'io.selendroid', name: 'selendroid-test-app', version: '0.17.0'
+// https://mvnrepository.com/artifact/io.selendroid/selendroid-client
+    compile group: 'io.selendroid', name: 'selendroid-client', version: '0.17.0'
+
     //compile files("$buildDir/classes/main")
 }
 
@@ -72,10 +77,10 @@ def getDate(){
 }
 
 def args = ['--strict', '--monochrome',
-            '--glue', 'src/test/groovy/com/transform/steps', 'src/test/groovy/com/transform/features',
-            '--format', "html:target/transform-html-report${getDate()}",
+            '--glue', 'src/test/groovy/com/RestAutomation/steps', 'src/test/groovy/com/RestAutomation/features',
+            '--format', "html:target/RestAutomation-html-report${getDate()}",
             //'--format', 'junit:target/cucumber-junit-report.xml',
-            '--format', "json:target/transform-report${getDate()}.json",
+            '--format', "json:target/RestAutomation-report${getDate()}.json",
             '--tags','@restService,@nottoinclude']
 
 
@@ -95,10 +100,10 @@ def runCucumberTest(cukeArgs) {
     }
 }
 
-mainClassName = "com.transform.helper.ReportingClass"
+mainClassName = "com.RestAutomation.helper.ReportingClass"
 
 task cucumberReport(type: JavaExec) {
-    main = "com.transform.helper.ReportingClass"
+    main = "com.RestAutomation.helper.ReportingClass"
     classpath = sourceSets.test.runtimeClasspath
 }
 
