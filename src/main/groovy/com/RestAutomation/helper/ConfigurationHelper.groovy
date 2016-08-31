@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebDriver
 
 /**
  * Created by mohmedyusoof.as on 5/27/2016.
@@ -20,7 +21,19 @@ public class ConfigurationHelper {
         }
         return restClient
     }
+
+    public static String getDriverType(){
+        if(restClient == null){
+            return new RestClient(ConfigurationHelper.getProperties().get("driver"))
+        }
+        return restClient
+    }
+
     public static String getTags(){
         return ConfigurationHelper.getProperties().get("tags")
+    }
+
+    public static String webappliationbaseurl(){
+        return ConfigurationHelper.getProperties().get("webappliationbaseurl")
     }
 }

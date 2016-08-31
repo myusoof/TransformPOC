@@ -6,6 +6,7 @@ apply plugin: 'base'
 apply plugin: 'application'
 apply plugin: 'maven'
 apply from: 'external-dependencies.gradle'
+apply from: 'external-webdriver.gradle'
 sourceCompatibility = 1.5
 
 /*archivesBaseName = 'TransformPoC'
@@ -33,7 +34,7 @@ sourceSets.test.groovy.srcDirs = ['src/test/groovy']
 sourceSets.test.resources.srcDirs = ['src/test/resources']
 
 dependencies {
-    compile restClient1, jackson, jacksonJaxRs, jacksonDataType, jaxws
+    compile restClient1, jackson, jacksonJaxRs, jacksonDataType, jaxws, webdriver
     compile cucumberGroovy
     testCompile cucumberJunit
     testCompile junit
@@ -118,4 +119,5 @@ task updateArgs(dependsOn: "classes") << {
         println args
     }
 }
+
 
