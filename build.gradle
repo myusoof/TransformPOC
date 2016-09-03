@@ -7,7 +7,7 @@ apply plugin: 'application'
 apply plugin: 'maven'
 apply from: 'external-dependencies.gradle'
 //apply from: 'external-webdriver.gradle'
-//sourceCompatibility = 1.5
+//sourceCompatibility = 1.7
 
 /*archivesBaseName = 'TransformPoC'
 group = 'helper'
@@ -52,9 +52,9 @@ dependencies {
     compile appium_java_client, httpclient, commonLang, gsonGoogle, googleHttpClient, testdriod, googleJackson
 
     // https://mvnrepository.com/artifact/io.selendroid/selendroid-test-app
-    compile group: 'io.selendroid', name: 'selendroid-test-app', version: '0.17.0'
+    //compile group: 'io.selendroid', name: 'selendroid-test-app', version: '0.17.0'
 // https://mvnrepository.com/artifact/io.selendroid/selendroid-client
-    compile group: 'io.selendroid', name: 'selendroid-client', version: '0.17.0'
+    //compile group: 'io.selendroid', name: 'selendroid-client', version: '0.17.0'
 
     //compile files("$buildDir/classes/main")
 }

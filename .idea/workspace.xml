@@ -2,275 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d95be78-d9f0-431b-8476-aee387d24fb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/TransformPoC.feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/TransformPoC_1.feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/._style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/skin/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/skin/._style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/images/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/js/._highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/960.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_analytics.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_next_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_security.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_shop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/text.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/bg_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/bg_image_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/gradient_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/header_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/hr-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/AC_RunActiveContent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/ar3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/arno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/ars3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/arst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brfl.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/buno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cl3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clfl.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clim.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clp3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cls3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cnno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/dollar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/dono.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/lnno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/mxno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pi3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/piim.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pino.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pono.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/scno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/button_rollover/button_rollover.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/button_rollover/button_rollover.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/chart_in_swf/chart_in_swf.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/cursor/cursor.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/cursor/cursor.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/full_screen/full_screen.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/full_screen/full_screen.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/black.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/black.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_1.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_1.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_2.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_2.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_over_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_over_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/feature-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.bar-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.pie-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.raphael-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.enumerable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.tablesorter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.tufte-graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/restService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/step-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/tag-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/TransformPoC.feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/TransformPoC_1.feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/._style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/skin/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/skin/._style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/images/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/js/._highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/960.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-lefth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-righth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_analytics.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_next_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_security.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_shop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/text.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/bg_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/bg_image_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/gradient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/gradient_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/header_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/hr-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/AC_RunActiveContent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/ar3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/arno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/ars3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/arst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brfl.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/buno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cl3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clfl.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clim.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clp3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cls3.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clst.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cnno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/dollar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/dono.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/lnno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/mxno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pi3d.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/piim.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pino.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pono.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/scno.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/button_rollover/button_rollover.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/button_rollover/button_rollover.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/chart_in_swf/chart_in_swf.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/cursor/cursor.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/cursor/cursor.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/full_screen/full_screen.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/full_screen/full_screen.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/black.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/black.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_1.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_1.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_2.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_2.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_idle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_over.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_press.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_over_L.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_over_R.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/feature-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.bar-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.pie-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.raphael-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.enumerable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.tablesorter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.tufte-graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/nottoinclude.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/restService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/step-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/tag-overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-report20160603002256.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-report20160603002450.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-json-report.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-junit-report.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/RunCukesTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/RunCukesTestGroovy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20get#20call#20with#20query#20paramater.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20get#20call.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20post#20call.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20scenario#20with#20parameter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20non#20tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/com.transform.RunCukesTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/com.transform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-RunCukesTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-RunCukesTestGroovy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call#20with#20query#20paramater.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20post#20call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20scenario#20with#20parameter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20non#20tag.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-com.transform.RunCukesTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1002775645421956389_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1003402065844059364_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1083544364024464238_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1116732306409738446_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1188022274456351575_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1210106708438055128_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_121979827793312870_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1258128101159526183_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1292698270535285913_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1355633783367280179_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1357610587984510407_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_138328916408478430_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1443437941817386131_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1445734800515442623_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1495264156192931269_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1679610743873057381_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1727476478515363264_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1740004832729411596_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1753577129295852687_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1802856187261094048_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1974199615747160703_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2059102985932080600_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2070207344125628937_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2082187461219099639_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_211494259865273240_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2224843715033734304_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2327444079411397414_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2364300700083872117_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2370965008824309350_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2392902375472097391_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2489167909299684262_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2567255255260485053_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2592261119845376667_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2599820724235880546_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2699420668899126570_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2838820522265750592_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2938310538794987651_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2954202697366640541_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3006027817600722700_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3050144243965317342_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3117282320428375794_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3120935795221056447_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3177333027312755228_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3316937992540513779_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3332621601069438582_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3360617304086824633_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3384350260370344535_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3386197532771353838_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3474042559280928816_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3732755559374388019_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3918500223703289368_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3936487264580375834_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3951972680521378434_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3977808339501656436_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_40797725293539272_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4215347034037936932_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4232689297447890500_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4369156703125212527_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4378544688483353537_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4391204222985827540_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4410029053921199918_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4458433845411175511_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4506747507440108744_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4564714190965244949_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4698166823549673570_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4700144657812002716_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_470248852101370356_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4733525688694193758_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4762655480291968958_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4775506119234153104_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4799105610171895875_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4819707211292219270_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4882216084378656234_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_489010216337466956_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4939066147219087547_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4942951948875040388_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5036488042413168037_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5042372848699981089_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5215573352536805197_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5330296767232113186_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5370487162493965254_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5392860503684588476_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5487005340399528182_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5559509883710744894_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5630254057435434642_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5782300843817260012_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5905020551319875061_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_594136040298834088_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_609369878917886442_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6131972528296083449_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6167524716085696088_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6245446342951050146_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6439956858463180832_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6453886573843915457_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6467321674522984076_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6661453436541525154_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6699569616873722972_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6713015280334209484_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_673962422773971745_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6822885959152724174_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6868131347017994534_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6889652388637387411_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7182773663969124015_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7238748072621069355_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7357906688173987941_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7431951703468623375_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7569069581663055175_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7575613464336258048_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7679804801886108364_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7723362811172263871_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7730320976727589714_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7736582122880937613_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7801073914092954581_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7810457489410272945_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7869664356614045052_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7878492943954664882_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7881953540826139414_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8073451525204621122_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8130959952280505864_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8138189927769159952_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8174946265054242129_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8178886247732938173_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8199984510697805130_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8229869488276983157_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8266548893906418117_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8318363856483016642_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8360293161989924633_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8367417563627989403_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_842303988252713461_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8473807927736069865_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_847932934480620592_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8621909670716550427_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8711648561276524419_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8785772636882963106_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8859338262645507636_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8875841543670627775_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8920953879363329615_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8963221410580246771_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9044003687624109197_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9129488891584177522_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_916355628766494519_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9182810662620612743_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9218083831806278216_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_923595918912415883_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/RunCukesTest.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/SelenroidAutomation.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/mobileAppium.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshotUsage.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/TransformPoC-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/TransformPoC-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.iml" afterPath="$PROJECT_DIR$/TransformPoC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.ipr" afterPath="$PROJECT_DIR$/TransformPoC.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/test/properties/configuration.properties" afterPath="$PROJECT_DIR$/build/resources/test/properties/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TransformPoC" afterPath="$PROJECT_DIR$/build/scripts/TransformPoC" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TransformPoC.bat" afterPath="$PROJECT_DIR$/build/scripts/TransformPoC.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
     </list>
     <ignored path="TransformPoC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -312,10 +243,30 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="41" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="e#27#106#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportingClass.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.3142858">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -324,8 +275,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#33#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -354,7 +307,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -468,11 +421,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestClientSteps.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestClientSteps.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7190476">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -1074,13 +1027,13 @@
         <option value="$PROJECT_DIR$/target/external-webdriver.gradle" />
         <option value="$PROJECT_DIR$/external-webdriver.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
       </list>
     </option>
   </component>
@@ -1158,36 +1111,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPOC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1212,142 +1135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPOC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPOC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPOC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RestAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPOC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobileAutomation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1421,7 +1208,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -1882,8 +1669,8 @@
     <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 34m 54s.xml">
       <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 17h 17m 30s.xml">
-      <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 41m 38s.xml">
+      <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 17h 31m 36s.xml">
       <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
@@ -1900,7 +1687,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1917,7 +1704,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2032,7 +1819,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy</url>
-          <line>19</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -2082,23 +1868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/mobileAppium.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#77#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2270,16 +2039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#77#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/features/TransformPoC_1.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2292,20 +2051,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/mobileAppium.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/SelenroidAutomation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -2338,22 +2083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.225806">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/b972b5dfd2db7d41d76a6fc5445852522a136e2e/httpcore-4.4.3-sources.jar!/org/apache/http/HttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2857144">
@@ -2381,14 +2110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/RunCukesTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3375">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2397,26 +2118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2517,6 +2222,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2525,23 +2240,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="41" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="e#27#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7190476">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="2.3142858">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
