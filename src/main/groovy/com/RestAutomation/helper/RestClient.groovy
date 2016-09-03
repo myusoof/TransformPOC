@@ -20,6 +20,15 @@ public class RestClient extends  RESTClient {
     protected JsonFactory jsonFactory = new MappingJsonFactory()
     private RedirectHandler standardRedirectHandler
 
+    static RestClient restClient = null;
+
+    public static RestClient getRestInstance(){
+        if(restClient == null){
+            return new RestClient(ConfigurationHelper.getProperties().get("baseUrl"))
+        }
+        return restClient
+    }
+
     RestClient(Object defaultURI) {
         super(defaultURI)
         encoder.charset = "UTF-8"

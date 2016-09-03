@@ -13,7 +13,7 @@
       <entry name="!?*.java"/>
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true"/>
-    <bytecodeTargetLevel target="1.5"/>
+    <bytecodeTargetLevel target="1.7"/>
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright/>
@@ -51,7 +51,7 @@
       <module filepath="$PROJECT_DIR$/TransformPoC.iml" fileurl="file://$PROJECT_DIR$/TransformPoC.iml"/>
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="1.7">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="1.7">
     <output url="file://$PROJECT_DIR$/out"/>
   </component>
   <component name="SvnBranchConfigurationManager">

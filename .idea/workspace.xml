@@ -2,18 +2,275 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d95be78-d9f0-431b-8476-aee387d24fb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/TransformPoC.feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/TransformPoC_1.feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/skin/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/css/skin/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/blue/images/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/__MACOSX/js/._highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/960.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-big-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-light-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/btn-medium-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_analytics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_next_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_security.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_seo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_shop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/images/icon_tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/skin/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/css/text.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/bg_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/bg_image_big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/gradient_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/hr-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/blue/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/AC_RunActiveContent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/ar3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/arno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/ars3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/arst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brfl.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/brst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/buno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cl3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clfl.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clim.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clp3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cls3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/clst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/cnno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/dollar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/dono.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/lnno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/mxno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pi3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/piim.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pino.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/pono.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/charts_library/scno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/button_rollover/button_rollover.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/button_rollover/button_rollover.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/chart_in_swf/chart_in_swf.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/cursor/cursor.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/cursor/cursor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/full_screen/full_screen.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/full_screen/full_screen.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/black.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/black.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_1.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_1.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_2.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/preview_scroll/preview_handle_2.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_1_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_2_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/button_all_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_handle_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_over_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/charts/resources/scroll/slider_over_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/feature-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.bar-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.pie-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/g.raphael-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.enumerable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.tablesorter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/jquery.tufte-graph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/js/raphael.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/restService.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/step-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002256/tag-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/TransformPoC.feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/TransformPoC_1.feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/skin/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/css/skin/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/blue/images/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/__MACOSX/js/._highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/960.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-big-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-light-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-lefth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/btn-medium-righth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_analytics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_next_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_security.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_seo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_shop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/images/icon_tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/skin/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/css/text.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/bg_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/bg_image_big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/gradient_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/hr-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/blue/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/AC_RunActiveContent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/ar3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/arno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/ars3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/arst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brfl.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/brst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/buno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cl3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clfl.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clim.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clp3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cls3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/clst.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/cnno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/dollar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/dono.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/lnno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/mxno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pi3d.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/piim.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pino.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/pono.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/charts_library/scno.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/button_rollover/button_rollover.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/button_rollover/button_rollover.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/chart_in_swf/chart_in_swf.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/cursor/cursor.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/cursor/cursor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/full_screen/full_screen.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/full_screen/full_screen.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/black.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/black.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_1.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_1.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_2.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/preview_scroll/preview_handle_2.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_1_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_2_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_idle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/button_all_press.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_handle_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_over_L.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/charts/resources/scroll/slider_over_R.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/feature-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.bar-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.pie-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/g.raphael-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.enumerable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.tablesorter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/jquery.tufte-graph.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/js/raphael.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/nottoinclude.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/restService.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/step-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-html-report20160603002450/tag-overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-report20160603002256.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/transform-report20160603002450.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.iml" afterPath="$PROJECT_DIR$/TransformPoC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.ipr" afterPath="$PROJECT_DIR$/TransformPoC.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
     </list>
     <ignored path="TransformPoC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,43 +308,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebDriverHelper.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebDriverHelper.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2765625">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="41" />
               <folding>
-                <element signature="e#27#63#0" expanded="true" />
+                <element signature="e#27#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="InternetHeroKuppSteps.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="external-webdriver.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/external-webdriver.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="external-dependencies.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/external-dependencies.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -97,55 +334,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InternetHeroKuppSteps.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/api/groovy/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1169#1170#0" expanded="false" />
-                <element signature="e#1204#1205#0" expanded="false" />
-                <element signature="e#1893#1894#0" expanded="false" />
-                <element signature="e#1929#1930#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestClientSteps.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationHelper.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="38" />
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -155,8 +344,138 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationHelper.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestClient.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultGroovyMethods.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/fd2c46e38f8b08e4ec69badf3cd2b2cc436f628f/groovy-all-2.4.6-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
+              <folding>
+                <element signature="e#9405#9435#0" expanded="true" />
+                <element signature="method#getProperties#0;class#DefaultGroovyMethods#0" expanded="false" />
+                <element signature="docComment;method#use#0;class#DefaultGroovyMethods#0" expanded="false" />
+                <element signature="e#70126#70156#0" expanded="true" />
+                <element signature="e#70974#71004#0" expanded="true" />
+                <element signature="e#71797#71827#0" expanded="true" />
+                <element signature="e#101862#101892#0" expanded="true" />
+                <element signature="e#133672#133702#0" expanded="true" />
+                <element signature="e#134631#134661#0" expanded="true" />
+                <element signature="e#150344#150374#0" expanded="true" />
+                <element signature="e#183698#183728#0" expanded="true" />
+                <element signature="e#184527#184557#0" expanded="true" />
+                <element signature="e#196956#196986#1" expanded="true" />
+                <element signature="e#208367#208397#0" expanded="true" />
+                <element signature="e#208509#208539#1" expanded="true" />
+                <element signature="e#327246#327276#0" expanded="true" />
+                <element signature="e#328862#328892#0" expanded="true" />
+                <element signature="e#358082#358112#0" expanded="true" />
+                <element signature="e#414299#414329#0" expanded="true" />
+                <element signature="e#416526#416556#0" expanded="true" />
+                <element signature="e#417419#417449#0" expanded="true" />
+                <element signature="e#419027#419057#0" expanded="true" />
+                <element signature="e#421709#421739#0" expanded="true" />
+                <element signature="e#422272#422302#0" expanded="true" />
+                <element signature="e#423508#423538#0" expanded="true" />
+                <element signature="e#424119#424149#0" expanded="true" />
+                <element signature="e#424729#424759#0" expanded="true" />
+                <element signature="e#425561#425591#0" expanded="true" />
+                <element signature="e#456720#456750#0" expanded="true" />
+                <element signature="e#457188#457218#0" expanded="true" />
+                <element signature="e#463694#463724#0" expanded="true" />
+                <element signature="e#479479#479509#0" expanded="true" />
+                <element signature="e#479897#479927#0" expanded="true" />
+                <element signature="e#480321#480351#0" expanded="true" />
+                <element signature="e#480749#480779#0" expanded="true" />
+                <element signature="e#481167#481197#0" expanded="true" />
+                <element signature="e#481586#481616#0" expanded="true" />
+                <element signature="e#482010#482040#0" expanded="true" />
+                <element signature="e#482439#482469#0" expanded="true" />
+                <element signature="e#482869#482899#0" expanded="true" />
+                <element signature="e#483464#483494#0" expanded="true" />
+                <element signature="e#484072#484102#0" expanded="true" />
+                <element signature="e#484669#484699#0" expanded="true" />
+                <element signature="e#485269#485299#0" expanded="true" />
+                <element signature="e#485867#485897#0" expanded="true" />
+                <element signature="e#486471#486501#0" expanded="true" />
+                <element signature="e#487081#487111#0" expanded="true" />
+                <element signature="e#487691#487721#0" expanded="true" />
+                <element signature="e#488127#488157#0" expanded="true" />
+                <element signature="e#488571#488601#0" expanded="true" />
+                <element signature="e#489008#489038#0" expanded="true" />
+                <element signature="e#489446#489476#0" expanded="true" />
+                <element signature="e#489885#489915#0" expanded="true" />
+                <element signature="e#490329#490359#0" expanded="true" />
+                <element signature="e#490769#490799#0" expanded="true" />
+                <element signature="e#491208#491238#0" expanded="true" />
+                <element signature="e#491644#491674#0" expanded="true" />
+                <element signature="e#492088#492118#0" expanded="true" />
+                <element signature="e#492525#492555#0" expanded="true" />
+                <element signature="e#492963#492993#0" expanded="true" />
+                <element signature="e#493402#493432#0" expanded="true" />
+                <element signature="e#493846#493876#0" expanded="true" />
+                <element signature="e#494295#494325#0" expanded="true" />
+                <element signature="e#501773#501803#0" expanded="true" />
+                <element signature="e#502176#502206#0" expanded="true" />
+                <element signature="e#502580#502610#0" expanded="true" />
+                <element signature="e#502984#503014#0" expanded="true" />
+                <element signature="e#503384#503414#0" expanded="true" />
+                <element signature="e#503784#503814#0" expanded="true" />
+                <element signature="e#504183#504213#0" expanded="true" />
+                <element signature="e#504585#504615#0" expanded="true" />
+                <element signature="e#504983#505013#0" expanded="true" />
+                <element signature="e#505385#505415#0" expanded="true" />
+                <element signature="e#505790#505820#0" expanded="true" />
+                <element signature="e#506195#506225#0" expanded="true" />
+                <element signature="e#506596#506626#0" expanded="true" />
+                <element signature="e#506997#507027#0" expanded="true" />
+                <element signature="e#507397#507427#0" expanded="true" />
+                <element signature="e#507800#507830#0" expanded="true" />
+                <element signature="e#576836#576866#0" expanded="true" />
+                <element signature="e#587374#587404#0" expanded="true" />
+                <element signature="e#592198#592228#0" expanded="true" />
+                <element signature="e#592786#592816#0" expanded="true" />
+                <element signature="e#606553#606583#0" expanded="true" />
+                <element signature="e#606722#606752#0" expanded="true" />
+                <element signature="e#632938#632968#0" expanded="true" />
+                <element signature="e#633255#633285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestClientSteps.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7190476">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -752,15 +1071,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/SelenroidAutomation.feature" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
         <option value="$PROJECT_DIR$/target/external-webdriver.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/external-webdriver.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
       </list>
     </option>
   </component>
@@ -803,8 +1123,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -812,10 +1130,6 @@
               <option name="myItemId" value="TransformPoC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -823,25 +1137,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,7 +1147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -873,7 +1169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -899,7 +1195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -907,7 +1203,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -917,7 +1229,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobileAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -947,7 +1387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemId" value="TransformPOC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -973,10 +1413,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/MuttonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -985,54 +1432,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: TransformPoC (1)">
-    <configuration default="false" name="Feature: mobileAppium" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/mobileAppium.feature" />
-      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: mobileAppium" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Feature: SelenroidAutomation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/SelenroidAutomation.feature" />
-      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: SelenroidAutomation" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Scenario: I have to selendroid server" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1092,6 +1491,54 @@
       <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps" />
       <option name="myNameFilter" value="" />
       <option name="myGeneratedName" value="Feature: TransformPoC" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TransformPoC" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Perform a post call" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/features/TransformPoC.feature" />
+      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps" />
+      <option name="myNameFilter" value="^Perform a post call$" />
+      <option name="myGeneratedName" value="Scenario: Perform a post call" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Perform a post call$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TransformPoC" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/features" />
+      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: features" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -1390,19 +1837,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: mobileAppium" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: SelenroidAutomation" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to selendroid server" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to selendroid server" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Perform a post call" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: features" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to selendroid server" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: SelenroidAutomation" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: mobileAppium" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.All Features in: features" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Perform a post call" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: TransformPoC" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to selendroid server" />
       </list>
     </recent_temporary>
   </component>
@@ -1420,26 +1867,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__SelenroidAutomation - 2016.07.01 at 00h 08m 31s.xml">
-      <configuration name="Feature: SelenroidAutomation" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="All_Features_in__features - 2016.09.03 at 21h 23m 45s.xml">
+      <configuration name="All Features in: features" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__SelenroidAutomation - 2016.07.01 at 00h 17m 09s.xml">
-      <configuration name="Feature: SelenroidAutomation" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__TransformPoC - 2016.08.30 at 23h 59m 20s.xml">
-      <configuration name="Feature: TransformPoC" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__TransformPoC_(1) - 2016.08.31 at 00h 00m 49s.xml">
+    <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 20m 25s.xml">
       <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__mobileAppium - 2016.06.26 at 22h 04m 29s.xml">
-      <configuration name="Feature: mobileAppium" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 32m 20s.xml">
+      <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 17h 14m 08s.xml">
-      <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 32m 46s.xml">
+      <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 17h 16m 05s.xml">
-      <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__TransformPoC_(1) - 2016.09.03 at 21h 34m 54s.xml">
+      <configuration name="Feature: TransformPoC (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 17h 17m 30s.xml">
       <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
@@ -1450,10 +1891,16 @@
     <history-entry file="Scenario__I_have_to_selendroid_server - 2016.07.02 at 18h 22m 34s.xml">
       <configuration name="Scenario: I have to selendroid server" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Perform_a_post_call - 2016.09.03 at 21h 22m 25s.xml">
+      <configuration name="Scenario: Perform a post call" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Perform_a_post_call - 2016.09.03 at 21h 23m 32s.xml">
+      <configuration name="Scenario: Perform a post call" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1461,22 +1908,22 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1585,12 +2032,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy</url>
-          <line>18</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1599,30 +2064,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#77#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/runtime/groovy/GroovyStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/model/StepContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/model/CucumberScenario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1648,7 +2089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,21 +2287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/features/TransformPoC.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/RunCukesTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/RunCukesTestGroovy.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1874,7 +2299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1882,25 +2306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1918,22 +2323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id_rsa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.590625">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/external-dependencies.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1942,26 +2331,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/external-webdriver.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.0.0-beta2/d43cd869e7a1e8bb344ec25452ab358532da64fa/selenium-api-3.0.0-beta2-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3328125">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.225806">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/b972b5dfd2db7d41d76a6fc5445852522a136e2e/httpcore-4.4.3-sources.jar!/org/apache/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2857144">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="4" selection-end-line="96" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.1/a7396f0103337835621526d95021afc06c65c7b2/http-builder-0.7.1-sources.jar!/groovyx/net/http/HttpResponseDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50476193">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="e#2022#2023#0" expanded="false" />
+            <element signature="e#2072#2073#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/features/TransformPoC.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/RunCukesTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3375">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1969,7 +2408,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1977,20 +2416,222 @@
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="38" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/fd2c46e38f8b08e4ec69badf3cd2b2cc436f628f/groovy-all-2.4.6-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
+          <folding>
+            <element signature="e#9405#9435#0" expanded="true" />
+            <element signature="method#getProperties#0;class#DefaultGroovyMethods#0" expanded="false" />
+            <element signature="docComment;method#use#0;class#DefaultGroovyMethods#0" expanded="false" />
+            <element signature="e#70126#70156#0" expanded="true" />
+            <element signature="e#70974#71004#0" expanded="true" />
+            <element signature="e#71797#71827#0" expanded="true" />
+            <element signature="e#101862#101892#0" expanded="true" />
+            <element signature="e#133672#133702#0" expanded="true" />
+            <element signature="e#134631#134661#0" expanded="true" />
+            <element signature="e#150344#150374#0" expanded="true" />
+            <element signature="e#183698#183728#0" expanded="true" />
+            <element signature="e#184527#184557#0" expanded="true" />
+            <element signature="e#196956#196986#1" expanded="true" />
+            <element signature="e#208367#208397#0" expanded="true" />
+            <element signature="e#208509#208539#1" expanded="true" />
+            <element signature="e#327246#327276#0" expanded="true" />
+            <element signature="e#328862#328892#0" expanded="true" />
+            <element signature="e#358082#358112#0" expanded="true" />
+            <element signature="e#414299#414329#0" expanded="true" />
+            <element signature="e#416526#416556#0" expanded="true" />
+            <element signature="e#417419#417449#0" expanded="true" />
+            <element signature="e#419027#419057#0" expanded="true" />
+            <element signature="e#421709#421739#0" expanded="true" />
+            <element signature="e#422272#422302#0" expanded="true" />
+            <element signature="e#423508#423538#0" expanded="true" />
+            <element signature="e#424119#424149#0" expanded="true" />
+            <element signature="e#424729#424759#0" expanded="true" />
+            <element signature="e#425561#425591#0" expanded="true" />
+            <element signature="e#456720#456750#0" expanded="true" />
+            <element signature="e#457188#457218#0" expanded="true" />
+            <element signature="e#463694#463724#0" expanded="true" />
+            <element signature="e#479479#479509#0" expanded="true" />
+            <element signature="e#479897#479927#0" expanded="true" />
+            <element signature="e#480321#480351#0" expanded="true" />
+            <element signature="e#480749#480779#0" expanded="true" />
+            <element signature="e#481167#481197#0" expanded="true" />
+            <element signature="e#481586#481616#0" expanded="true" />
+            <element signature="e#482010#482040#0" expanded="true" />
+            <element signature="e#482439#482469#0" expanded="true" />
+            <element signature="e#482869#482899#0" expanded="true" />
+            <element signature="e#483464#483494#0" expanded="true" />
+            <element signature="e#484072#484102#0" expanded="true" />
+            <element signature="e#484669#484699#0" expanded="true" />
+            <element signature="e#485269#485299#0" expanded="true" />
+            <element signature="e#485867#485897#0" expanded="true" />
+            <element signature="e#486471#486501#0" expanded="true" />
+            <element signature="e#487081#487111#0" expanded="true" />
+            <element signature="e#487691#487721#0" expanded="true" />
+            <element signature="e#488127#488157#0" expanded="true" />
+            <element signature="e#488571#488601#0" expanded="true" />
+            <element signature="e#489008#489038#0" expanded="true" />
+            <element signature="e#489446#489476#0" expanded="true" />
+            <element signature="e#489885#489915#0" expanded="true" />
+            <element signature="e#490329#490359#0" expanded="true" />
+            <element signature="e#490769#490799#0" expanded="true" />
+            <element signature="e#491208#491238#0" expanded="true" />
+            <element signature="e#491644#491674#0" expanded="true" />
+            <element signature="e#492088#492118#0" expanded="true" />
+            <element signature="e#492525#492555#0" expanded="true" />
+            <element signature="e#492963#492993#0" expanded="true" />
+            <element signature="e#493402#493432#0" expanded="true" />
+            <element signature="e#493846#493876#0" expanded="true" />
+            <element signature="e#494295#494325#0" expanded="true" />
+            <element signature="e#501773#501803#0" expanded="true" />
+            <element signature="e#502176#502206#0" expanded="true" />
+            <element signature="e#502580#502610#0" expanded="true" />
+            <element signature="e#502984#503014#0" expanded="true" />
+            <element signature="e#503384#503414#0" expanded="true" />
+            <element signature="e#503784#503814#0" expanded="true" />
+            <element signature="e#504183#504213#0" expanded="true" />
+            <element signature="e#504585#504615#0" expanded="true" />
+            <element signature="e#504983#505013#0" expanded="true" />
+            <element signature="e#505385#505415#0" expanded="true" />
+            <element signature="e#505790#505820#0" expanded="true" />
+            <element signature="e#506195#506225#0" expanded="true" />
+            <element signature="e#506596#506626#0" expanded="true" />
+            <element signature="e#506997#507027#0" expanded="true" />
+            <element signature="e#507397#507427#0" expanded="true" />
+            <element signature="e#507800#507830#0" expanded="true" />
+            <element signature="e#576836#576866#0" expanded="true" />
+            <element signature="e#587374#587404#0" expanded="true" />
+            <element signature="e#592198#592228#0" expanded="true" />
+            <element signature="e#592786#592816#0" expanded="true" />
+            <element signature="e#606553#606583#0" expanded="true" />
+            <element signature="e#606722#606752#0" expanded="true" />
+            <element signature="e#632938#632968#0" expanded="true" />
+            <element signature="e#633255#633285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2765625">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="41" />
           <folding>
-            <element signature="e#27#63#0" expanded="true" />
+            <element signature="e#27#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7190476">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-1.8.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TransformPoC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

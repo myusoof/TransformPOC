@@ -12,9 +12,8 @@ this.metaClass.mixin(cucumber.api.groovy.EN)
 //@Field
 //RestClient restClient = new RestClient(ConfigurationHelper.getProperties().get("baseUrl"))
 
-
 @Field
-RestClient restClient = ConfigurationHelper.getRestInstance()
+RestClient restClient = RestClient.getRestInstance()
 
 def response
 
@@ -38,7 +37,7 @@ Given(~'I perform the post call'){->
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     ]
     response = restClient.post(path: "posts", body:includeBody)
-    assert response.responseBase.statusline.statusCode, 201
+    assert response.status, 201
 }
 Given(~/^I perform simple call with (.*)$/) { inputParameter ->
     println inputParameter
