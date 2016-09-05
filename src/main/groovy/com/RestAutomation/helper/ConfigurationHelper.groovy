@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver
  */
 public class ConfigurationHelper {
 
-    static RestClient restClient = new RestClient(ConfigurationHelper.getProperties().get("baseUrl"))
     static Properties properties
 
     public static Properties getProperties(){
@@ -15,25 +14,15 @@ public class ConfigurationHelper {
         return properties
     }
 
-    public static RestClient getRestInstance(){
-        if(restClient == null){
-            return new RestClient(ConfigurationHelper.getProperties().get("baseUrl"))
-        }
-        return restClient
-    }
-
     public static String getDriverType(){
-        if(restClient == null){
-            return new RestClient(ConfigurationHelper.getProperties().get("driver"))
-        }
-        return restClient
+        return ConfigurationHelper.getProperties().get("driver")
     }
 
     public static String getTags(){
         return ConfigurationHelper.getProperties().get("tags")
     }
 
-    public static String webappliationbaseurl(){
+    public static String getWebAppliationBaseUrl(){
         return ConfigurationHelper.getProperties().get("webappliationbaseurl")
     }
 }

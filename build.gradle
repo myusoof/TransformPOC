@@ -41,15 +41,17 @@ dependencies {
     compile group: 'net.masterthought', name: 'cucumber-reporting', version: "0.4.0"
     compile group: 'com.googlecode.totallylazy', name: 'totallylazy', version: '1.20'
     compile groovy
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+
     testCompile groovy
-    compile 'io.appium:java-client:3.3.0'
+    //compile 'io.appium:java-client:3.3.0'
     //compile fileTree(dir: 'lib', include: ['*.jar'])
 
     compile ("com.googlecode.json-simple:json-simple:1.1.1"){
         exclude group : 'junit'
         exclude module: 'junit'
     }
-    compile appium_java_client, httpclient, commonLang, gsonGoogle, googleHttpClient, testdriod, googleJackson
+    compile httpclient, commonLang, gsonGoogle, googleHttpClient, googleJackson
 
     // https://mvnrepository.com/artifact/io.selendroid/selendroid-test-app
     //compile group: 'io.selendroid', name: 'selendroid-test-app', version: '0.17.0'

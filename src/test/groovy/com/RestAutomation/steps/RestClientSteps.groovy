@@ -1,3 +1,4 @@
+import com.RestAutomation.helper.RestClient
 import groovy.transform.Field
 import org.junit.Assert
 
