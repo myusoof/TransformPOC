@@ -2,206 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d95be78-d9f0-431b-8476-aee387d24fb0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-html-report/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-json-report.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/cucumber-junit-report.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/RunCukesTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/RunCukesTestGroovy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20get#20call#20with#20query#20paramater.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20get#20call.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20a#20post#20call.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20Perform#20scenario#20with#20parameter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/Scenario#3a#20non#20tag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/com.transform.RunCukesTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/com.transform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/default-package.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-RunCukesTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-RunCukesTestGroovy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call#20with#20query#20paramater.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20get#20call1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20a#20post#20call.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20Perform#20scenario#20with#20parameter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-Scenario#3a#20non#20tag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-com.transform.RunCukesTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1002775645421956389_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1003402065844059364_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1083544364024464238_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1116732306409738446_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1188022274456351575_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1210106708438055128_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_121979827793312870_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1258128101159526183_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1292698270535285913_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1355633783367280179_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1357610587984510407_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_138328916408478430_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1443437941817386131_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1445734800515442623_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1495264156192931269_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1679610743873057381_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1727476478515363264_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1740004832729411596_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1753577129295852687_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1802856187261094048_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1974199615747160703_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2059102985932080600_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2070207344125628937_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2082187461219099639_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_211494259865273240_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2224843715033734304_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2327444079411397414_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2364300700083872117_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2370965008824309350_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2392902375472097391_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2489167909299684262_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2567255255260485053_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2592261119845376667_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2599820724235880546_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2699420668899126570_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2838820522265750592_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2938310538794987651_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2954202697366640541_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3006027817600722700_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3050144243965317342_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3117282320428375794_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3120935795221056447_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3177333027312755228_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3316937992540513779_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3332621601069438582_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3360617304086824633_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3384350260370344535_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3386197532771353838_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3474042559280928816_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3732755559374388019_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3918500223703289368_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3936487264580375834_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3951972680521378434_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3977808339501656436_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_40797725293539272_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4215347034037936932_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4232689297447890500_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4369156703125212527_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4378544688483353537_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4391204222985827540_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4410029053921199918_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4458433845411175511_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4506747507440108744_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4564714190965244949_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4698166823549673570_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4700144657812002716_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_470248852101370356_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4733525688694193758_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4762655480291968958_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4775506119234153104_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4799105610171895875_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4819707211292219270_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4882216084378656234_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_489010216337466956_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4939066147219087547_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4942951948875040388_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5036488042413168037_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5042372848699981089_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5215573352536805197_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5330296767232113186_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5370487162493965254_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5392860503684588476_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5487005340399528182_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5559509883710744894_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5630254057435434642_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5782300843817260012_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5905020551319875061_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_594136040298834088_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_609369878917886442_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6131972528296083449_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6167524716085696088_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6245446342951050146_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6439956858463180832_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6453886573843915457_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6467321674522984076_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6661453436541525154_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6699569616873722972_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6713015280334209484_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_673962422773971745_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6822885959152724174_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6868131347017994534_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6889652388637387411_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7182773663969124015_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7238748072621069355_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7357906688173987941_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7431951703468623375_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7569069581663055175_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7575613464336258048_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7679804801886108364_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7723362811172263871_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7730320976727589714_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7736582122880937613_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7801073914092954581_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7810457489410272945_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7869664356614045052_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7878492943954664882_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7881953540826139414_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8073451525204621122_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8130959952280505864_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8138189927769159952_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8174946265054242129_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8178886247732938173_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8199984510697805130_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8229869488276983157_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8266548893906418117_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8318363856483016642_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8360293161989924633_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8367417563627989403_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_842303988252713461_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8473807927736069865_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_847932934480620592_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8621909670716550427_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8711648561276524419_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8785772636882963106_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8859338262645507636_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8875841543670627775_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8920953879363329615_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8963221410580246771_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9044003687624109197_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9129488891584177522_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_916355628766494519_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9182810662620612743_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_9218083831806278216_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_923595918912415883_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/RunCukesTest.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/SelenroidAutomation.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/features/mobileAppium.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/com/mobileAutomation/steps/MobileAutomationOne.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/ConfigurationHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClient$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClient$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClient$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClient$_turnOffFollowRedirects_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure2_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps$_run_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RestClientSteps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RunCukesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/RunCukesTestGroovy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/com/transform/RunCukesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/com/transform/features/TransformPoC.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/com/transform/features/TransformPoC_1.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/com/transform/helper/ReportingClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/TransformPoC/properties/configuration.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshotUsage.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/treeSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.tar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/build/distributions/TransformPoC-1.0-SNAPSHOT.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/TransformPoC-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/TransformPoC-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/test/properties/configuration.properties" afterPath="$PROJECT_DIR$/build/resources/test/properties/configuration.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TransformPoC" afterPath="$PROJECT_DIR$/build/scripts/TransformPoC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TransformPoC.bat" afterPath="$PROJECT_DIR$/build/scripts/TransformPoC.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.iml" afterPath="$PROJECT_DIR$/TransformPoC.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
     </list>
     <ignored path="TransformPoC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -243,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="e#27#106#0" expanded="true" />
               </folding>
@@ -255,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -264,8 +93,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3142858">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.50625">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -279,16 +108,6 @@
               <folding>
                 <element signature="e#33#73#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InternetHeroKuppFeature.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -307,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -317,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -329,93 +148,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
               <folding>
-                <element signature="e#9405#9435#0" expanded="true" />
                 <element signature="method#getProperties#0;class#DefaultGroovyMethods#0" expanded="false" />
                 <element signature="docComment;method#use#0;class#DefaultGroovyMethods#0" expanded="false" />
-                <element signature="e#70126#70156#0" expanded="true" />
-                <element signature="e#70974#71004#0" expanded="true" />
-                <element signature="e#71797#71827#0" expanded="true" />
-                <element signature="e#101862#101892#0" expanded="true" />
-                <element signature="e#133672#133702#0" expanded="true" />
-                <element signature="e#134631#134661#0" expanded="true" />
-                <element signature="e#150344#150374#0" expanded="true" />
-                <element signature="e#183698#183728#0" expanded="true" />
-                <element signature="e#184527#184557#0" expanded="true" />
-                <element signature="e#196956#196986#1" expanded="true" />
-                <element signature="e#208367#208397#0" expanded="true" />
-                <element signature="e#208509#208539#1" expanded="true" />
-                <element signature="e#327246#327276#0" expanded="true" />
-                <element signature="e#328862#328892#0" expanded="true" />
-                <element signature="e#358082#358112#0" expanded="true" />
-                <element signature="e#414299#414329#0" expanded="true" />
-                <element signature="e#416526#416556#0" expanded="true" />
-                <element signature="e#417419#417449#0" expanded="true" />
-                <element signature="e#419027#419057#0" expanded="true" />
-                <element signature="e#421709#421739#0" expanded="true" />
-                <element signature="e#422272#422302#0" expanded="true" />
-                <element signature="e#423508#423538#0" expanded="true" />
-                <element signature="e#424119#424149#0" expanded="true" />
-                <element signature="e#424729#424759#0" expanded="true" />
-                <element signature="e#425561#425591#0" expanded="true" />
-                <element signature="e#456720#456750#0" expanded="true" />
-                <element signature="e#457188#457218#0" expanded="true" />
-                <element signature="e#463694#463724#0" expanded="true" />
-                <element signature="e#479479#479509#0" expanded="true" />
-                <element signature="e#479897#479927#0" expanded="true" />
-                <element signature="e#480321#480351#0" expanded="true" />
-                <element signature="e#480749#480779#0" expanded="true" />
-                <element signature="e#481167#481197#0" expanded="true" />
-                <element signature="e#481586#481616#0" expanded="true" />
-                <element signature="e#482010#482040#0" expanded="true" />
-                <element signature="e#482439#482469#0" expanded="true" />
-                <element signature="e#482869#482899#0" expanded="true" />
-                <element signature="e#483464#483494#0" expanded="true" />
-                <element signature="e#484072#484102#0" expanded="true" />
-                <element signature="e#484669#484699#0" expanded="true" />
-                <element signature="e#485269#485299#0" expanded="true" />
-                <element signature="e#485867#485897#0" expanded="true" />
-                <element signature="e#486471#486501#0" expanded="true" />
-                <element signature="e#487081#487111#0" expanded="true" />
-                <element signature="e#487691#487721#0" expanded="true" />
-                <element signature="e#488127#488157#0" expanded="true" />
-                <element signature="e#488571#488601#0" expanded="true" />
-                <element signature="e#489008#489038#0" expanded="true" />
-                <element signature="e#489446#489476#0" expanded="true" />
-                <element signature="e#489885#489915#0" expanded="true" />
-                <element signature="e#490329#490359#0" expanded="true" />
-                <element signature="e#490769#490799#0" expanded="true" />
-                <element signature="e#491208#491238#0" expanded="true" />
-                <element signature="e#491644#491674#0" expanded="true" />
-                <element signature="e#492088#492118#0" expanded="true" />
-                <element signature="e#492525#492555#0" expanded="true" />
-                <element signature="e#492963#492993#0" expanded="true" />
-                <element signature="e#493402#493432#0" expanded="true" />
-                <element signature="e#493846#493876#0" expanded="true" />
-                <element signature="e#494295#494325#0" expanded="true" />
-                <element signature="e#501773#501803#0" expanded="true" />
-                <element signature="e#502176#502206#0" expanded="true" />
-                <element signature="e#502580#502610#0" expanded="true" />
-                <element signature="e#502984#503014#0" expanded="true" />
-                <element signature="e#503384#503414#0" expanded="true" />
-                <element signature="e#503784#503814#0" expanded="true" />
-                <element signature="e#504183#504213#0" expanded="true" />
-                <element signature="e#504585#504615#0" expanded="true" />
-                <element signature="e#504983#505013#0" expanded="true" />
-                <element signature="e#505385#505415#0" expanded="true" />
-                <element signature="e#505790#505820#0" expanded="true" />
-                <element signature="e#506195#506225#0" expanded="true" />
-                <element signature="e#506596#506626#0" expanded="true" />
-                <element signature="e#506997#507027#0" expanded="true" />
-                <element signature="e#507397#507427#0" expanded="true" />
-                <element signature="e#507800#507830#0" expanded="true" />
-                <element signature="e#576836#576866#0" expanded="true" />
-                <element signature="e#587374#587404#0" expanded="true" />
-                <element signature="e#592198#592228#0" expanded="true" />
-                <element signature="e#592786#592816#0" expanded="true" />
-                <element signature="e#606553#606583#0" expanded="true" />
-                <element signature="e#606722#606752#0" expanded="true" />
-                <element signature="e#632938#632968#0" expanded="true" />
-                <element signature="e#633255#633285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1029,11 +763,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/Testing.groovy" />
       </list>
     </option>
   </component>
@@ -1075,7 +810,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1109,6 +844,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAutomation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1161,10 +964,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebAutomation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1201,7 +1000,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1687,7 +1486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1695,22 +1494,22 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1818,11 +1617,6 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy</url>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy</url>
           <line>22</line>
           <properties />
@@ -1850,6 +1644,51 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/fd2c46e38f8b08e4ec69badf3cd2b2cc436f628f/groovy-all-2.4.6-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
+          <folding>
+            <element signature="method#getProperties#0;class#DefaultGroovyMethods#0" expanded="false" />
+            <element signature="docComment;method#use#0;class#DefaultGroovyMethods#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/model/CucumberScenario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2058,13 +1897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1169#1170#0" expanded="false" />
-            <element signature="e#1204#1205#0" expanded="false" />
-            <element signature="e#1893#1894#0" expanded="false" />
-            <element signature="e#1929#1930#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2087,7 +1919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2857144">
           <caret line="95" column="22" selection-start-line="95" selection-start-column="4" selection-end-line="96" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2095,10 +1926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50476193">
           <caret line="52" column="46" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="false" />
-            <element signature="e#2072#2073#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2106,7 +1933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2131,93 +1957,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
           <folding>
-            <element signature="e#9405#9435#0" expanded="true" />
             <element signature="method#getProperties#0;class#DefaultGroovyMethods#0" expanded="false" />
             <element signature="docComment;method#use#0;class#DefaultGroovyMethods#0" expanded="false" />
-            <element signature="e#70126#70156#0" expanded="true" />
-            <element signature="e#70974#71004#0" expanded="true" />
-            <element signature="e#71797#71827#0" expanded="true" />
-            <element signature="e#101862#101892#0" expanded="true" />
-            <element signature="e#133672#133702#0" expanded="true" />
-            <element signature="e#134631#134661#0" expanded="true" />
-            <element signature="e#150344#150374#0" expanded="true" />
-            <element signature="e#183698#183728#0" expanded="true" />
-            <element signature="e#184527#184557#0" expanded="true" />
-            <element signature="e#196956#196986#1" expanded="true" />
-            <element signature="e#208367#208397#0" expanded="true" />
-            <element signature="e#208509#208539#1" expanded="true" />
-            <element signature="e#327246#327276#0" expanded="true" />
-            <element signature="e#328862#328892#0" expanded="true" />
-            <element signature="e#358082#358112#0" expanded="true" />
-            <element signature="e#414299#414329#0" expanded="true" />
-            <element signature="e#416526#416556#0" expanded="true" />
-            <element signature="e#417419#417449#0" expanded="true" />
-            <element signature="e#419027#419057#0" expanded="true" />
-            <element signature="e#421709#421739#0" expanded="true" />
-            <element signature="e#422272#422302#0" expanded="true" />
-            <element signature="e#423508#423538#0" expanded="true" />
-            <element signature="e#424119#424149#0" expanded="true" />
-            <element signature="e#424729#424759#0" expanded="true" />
-            <element signature="e#425561#425591#0" expanded="true" />
-            <element signature="e#456720#456750#0" expanded="true" />
-            <element signature="e#457188#457218#0" expanded="true" />
-            <element signature="e#463694#463724#0" expanded="true" />
-            <element signature="e#479479#479509#0" expanded="true" />
-            <element signature="e#479897#479927#0" expanded="true" />
-            <element signature="e#480321#480351#0" expanded="true" />
-            <element signature="e#480749#480779#0" expanded="true" />
-            <element signature="e#481167#481197#0" expanded="true" />
-            <element signature="e#481586#481616#0" expanded="true" />
-            <element signature="e#482010#482040#0" expanded="true" />
-            <element signature="e#482439#482469#0" expanded="true" />
-            <element signature="e#482869#482899#0" expanded="true" />
-            <element signature="e#483464#483494#0" expanded="true" />
-            <element signature="e#484072#484102#0" expanded="true" />
-            <element signature="e#484669#484699#0" expanded="true" />
-            <element signature="e#485269#485299#0" expanded="true" />
-            <element signature="e#485867#485897#0" expanded="true" />
-            <element signature="e#486471#486501#0" expanded="true" />
-            <element signature="e#487081#487111#0" expanded="true" />
-            <element signature="e#487691#487721#0" expanded="true" />
-            <element signature="e#488127#488157#0" expanded="true" />
-            <element signature="e#488571#488601#0" expanded="true" />
-            <element signature="e#489008#489038#0" expanded="true" />
-            <element signature="e#489446#489476#0" expanded="true" />
-            <element signature="e#489885#489915#0" expanded="true" />
-            <element signature="e#490329#490359#0" expanded="true" />
-            <element signature="e#490769#490799#0" expanded="true" />
-            <element signature="e#491208#491238#0" expanded="true" />
-            <element signature="e#491644#491674#0" expanded="true" />
-            <element signature="e#492088#492118#0" expanded="true" />
-            <element signature="e#492525#492555#0" expanded="true" />
-            <element signature="e#492963#492993#0" expanded="true" />
-            <element signature="e#493402#493432#0" expanded="true" />
-            <element signature="e#493846#493876#0" expanded="true" />
-            <element signature="e#494295#494325#0" expanded="true" />
-            <element signature="e#501773#501803#0" expanded="true" />
-            <element signature="e#502176#502206#0" expanded="true" />
-            <element signature="e#502580#502610#0" expanded="true" />
-            <element signature="e#502984#503014#0" expanded="true" />
-            <element signature="e#503384#503414#0" expanded="true" />
-            <element signature="e#503784#503814#0" expanded="true" />
-            <element signature="e#504183#504213#0" expanded="true" />
-            <element signature="e#504585#504615#0" expanded="true" />
-            <element signature="e#504983#505013#0" expanded="true" />
-            <element signature="e#505385#505415#0" expanded="true" />
-            <element signature="e#505790#505820#0" expanded="true" />
-            <element signature="e#506195#506225#0" expanded="true" />
-            <element signature="e#506596#506626#0" expanded="true" />
-            <element signature="e#506997#507027#0" expanded="true" />
-            <element signature="e#507397#507427#0" expanded="true" />
-            <element signature="e#507800#507830#0" expanded="true" />
-            <element signature="e#576836#576866#0" expanded="true" />
-            <element signature="e#587374#587404#0" expanded="true" />
-            <element signature="e#592198#592228#0" expanded="true" />
-            <element signature="e#592786#592816#0" expanded="true" />
-            <element signature="e#606553#606583#0" expanded="true" />
-            <element signature="e#606722#606752#0" expanded="true" />
-            <element signature="e#632938#632968#0" expanded="true" />
-            <element signature="e#633255#633285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2229,14 +1970,6 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2253,15 +1986,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ReportingClass.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -2269,7 +1994,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="e#27#106#0" expanded="true" />
           </folding>
@@ -2278,8 +2003,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3142858">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.50625">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
