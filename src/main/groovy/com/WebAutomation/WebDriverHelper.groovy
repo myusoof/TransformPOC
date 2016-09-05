@@ -1,7 +1,9 @@
 package com.WebAutomation
 
 import org.codehaus.plexus.configuration.processor.ConfigurationResourceHandler
+import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
@@ -38,5 +40,16 @@ public class WebDriverHelper {
             }
         }
         return driver;
+    }
+
+    public static WebElement FindElementWithJQuery(WebDriver driver, String JQuerySelector){
+        WebElement element = ((JavascriptExecutor)(driver)).executeScript("""return jQuery("$JQuerySelector").get(0)""")
+        element
+    }
+
+
+    public static List<WebElement> FindElementsWithJQuery(WebDriver driver, String JQuerySelector){
+        def elements = ((JavascriptExecutor)(driver)).executeScript("""return \$('$JQuerySelector').get()""")
+        elements
     }
 }

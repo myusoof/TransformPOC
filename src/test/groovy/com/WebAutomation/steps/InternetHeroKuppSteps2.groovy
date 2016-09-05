@@ -18,7 +18,8 @@ this.metaClass.mixin(cucumber.api.groovy.EN)
 WebDriver driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
 
 Then(~'I verify the text in the canvas element'){->
-    WebElement element=  ((JavascriptExecutor)(driver)).executeScript("""return jQuery("script:not([src])")[1]""")
+    WebElement element= WebDriverHelper.FindElementsWithJQuery(driver,"script:not([src])")[1]
+            //((JavascriptExecutor)(driver)).executeScript("""return jQuery("script:not([src])").get(1)""")
     String text = getTextFromCanvasElement(element)
     println text + ""
 }

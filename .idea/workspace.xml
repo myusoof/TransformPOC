@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d95be78-d9f0-431b-8476-aee387d24fb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/DialogHelper.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKupp2.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.iml" afterPath="$PROJECT_DIR$/TransformPoC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/ConfigurationHelper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" />
     </list>
     <ignored path="TransformPoC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,6 +41,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WebDriverHelper.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="e#27#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="InternetHeroKuppSteps.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,16 +61,6 @@
               <folding>
                 <element signature="e#33#85#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroovyBackend.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/runtime/groovy/GroovyBackend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5641026">
-              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,16 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpParams.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/org/apache/http/params/HttpParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InternetHeroKuppFeature.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,21 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InternetHeroKupp2.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InternetHeroKupp2.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKupp2.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.58064514">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InternetHeroKuppSteps2.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InternetHeroKuppSteps2.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64285713">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#33#85#0" expanded="true" />
               </folding>
@@ -757,7 +736,6 @@
         <option value="$PROJECT_DIR$/target/external-webdriver.gradle" />
         <option value="$PROJECT_DIR$/external-webdriver.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/RestAutomation/helper/RestClient.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/Testing.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy" />
@@ -768,6 +746,7 @@
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKupp2.feature" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
       </list>
     </option>
   </component>
@@ -1524,40 +1503,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 19h 56m 22s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 24m 11s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 01m 08s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 26m 46s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 37m 43s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 28m 13s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 38m 44s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 31m 01s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 47m 28s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 32m 29s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 49m 21s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 33m 21s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 20h 54m 22s.xml">
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 34m 55s.xml">
       <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_validate_the_broken_image - 2016.09.05 at 15h 51m 33s.xml">
-      <configuration name="Scenario: I have to validate the broken image" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 45m 53s.xml">
+      <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_validate_the_broken_image - 2016.09.05 at 15h 55m 15s.xml">
-      <configuration name="Scenario: I have to validate the broken image" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 46m 51s.xml">
+      <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_validate_the_broken_image - 2016.09.05 at 16h 08m 56s.xml">
-      <configuration name="Scenario: I have to validate the broken image" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__I_have_to_test_the_challenging_dom - 2016.09.05 at 21h 47m 41s.xml">
+      <configuration name="Scenario: I have to test the challenging dom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1565,7 +1544,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1574,8 +1553,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1707,12 +1686,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy</url>
           <line>59</line>
           <properties />
           <option name="timeStamp" value="30" />
@@ -1771,32 +1744,8 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2880,16 +2829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#27#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.48.2/42781e8b6bace517131d34a40e26de2f637101a8/selenium-firefox-driver-2.48.2-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3014,6 +2953,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/JavascriptExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/api/cli/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1794872">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/RestAutomation/steps/RestClientSteps.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3024,26 +2987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/JavascriptExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/runtime/groovy/GroovyBackend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5641026">
+        <state vertical-scroll-proportion="0.3648294">
           <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.4/8f968da4ddb2ef34cf340be0e39736be1e7647a8/cucumber-core-1.2.4-sources.jar!/cucumber/api/cli/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1794872">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3058,29 +3005,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKupp2.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#27#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#33#85#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKupp2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58064514">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
