@@ -1,6 +1,7 @@
 package com.WebAutomation
 
 import org.codehaus.plexus.configuration.processor.ConfigurationResourceHandler
+import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
@@ -42,14 +43,35 @@ public class WebDriverHelper {
         return driver;
     }
 
-    public static WebElement FindElementWithJQuery(WebDriver driver, String JQuerySelector){
+    public static WebElement FindElementWithJQuery(String JQuerySelector){
         WebElement element = ((JavascriptExecutor)(driver)).executeScript("""return jQuery("$JQuerySelector").get(0)""")
         element
     }
 
-
-    public static List<WebElement> FindElementsWithJQuery(WebDriver driver, String JQuerySelector){
+    public static List<WebElement> FindElementsWithJQuery(String JQuerySelector){
         def elements = ((JavascriptExecutor)(driver)).executeScript("""return \$('$JQuerySelector').get()""")
         elements
+    }
+    public static By ByWhat(String type, String elementLocator){
+        switch (type.toLowerCase()){
+            case "xpath":
+                return By.xpath(elementLocator)
+            case "classname":
+                return By.className(elementLocator)
+            case "cssSelector":
+                return By.cssSelector(elementLocator)
+            case "id":
+                return By.id(elementLocator)
+            case "linkText":
+                return By.linkText(elementLocator)
+            case "name":
+                return By.name(elementLocator)
+            case "partialLinkText":
+                return By.partialLinkText(elementLocator)
+            case "tagName":
+                return By.tagName(elementLocator)
+            default:
+                return By.xpath(elementLocator)
+        }
     }
 }

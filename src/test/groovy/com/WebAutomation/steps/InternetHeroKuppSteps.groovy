@@ -49,6 +49,7 @@ And(~'I validate the page Url "(.*)"'){ url->
 And(~'I validate the content in the page'){table->
     driver.getPageSource().contains(table.raw().get(0))
 }
+
 And(~'I validate the images are loaded correctly'){->
     List<WebElement> elements = driver.findElements(By.xpath("//div[@class='example']/img"))
     elements.each { it ->
