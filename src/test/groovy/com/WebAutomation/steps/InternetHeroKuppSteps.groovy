@@ -11,9 +11,13 @@ import junit.framework.Assert
 import org.junit.After
 import org.openqa.selenium.Alert
 import org.openqa.selenium.By
+import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.security.UserAndPassword
+
+import javax.swing.Action
 
 
 /**
@@ -56,6 +60,48 @@ And(~'I validate the images are loaded correctly'){->
         String imgPath = it.getAttribute("src")
         Assert.assertEquals(client.get(path: imgPath).statusLine.statusCode, 200)
     }
+}
+
+Then(~'I get validate the status of the checkbox'){->
+    List<WebElement> elements = driver.findElements(WebDriverHelper.ByWhat("xpath","//.[@id='checkboxes']/input"))
+    List<WebElement> elementsWithJqery = WebDriverHelper.FindElementsWithJQuery("form input:not(:checked)")
+    elementsWithJqery.each {it->if(!it.isSelected()){
+        it.click()
+    } }
+//    elements.each{ element ->
+//          if(!element.isSelected()){
+//              element.click()
+//          }
+    //}
+}
+Then(~'I validate the context menu'){->
+    WebElement contextBox = driver.findElement(By.xpath("//*[@id='hot-spot']"))
+    Actions actions = new Actions(driver)
+    actions.contextClick(contextBox)
+            .sendKeys(Keys.ARROW_DOWN)
+            .sendKeys(Keys.ARROW_DOWN)
+            .sendKeys(Keys.ARROW_DOWN)
+            .sendKeys(Keys.ARROW_DOWN)
+            .sendKeys(Keys.RETURN).build().perform()
+    //Thread.sleep(5000)
+//    actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.RETURN).build().perform()
+//    Thread.sleep(5000)
+    Alert alert = driver.switchTo().alert()
+    println alert.text == "You selected a context menu"
+    alert.accept()
+}
+List<String> elementText = new ArrayList<String>();
+Then(~'I get all the menus which appears'){->
+    List<WebElement> disappearingElements = driver.findElements(By.xpath("li"))
+    5.times {
+        if(disappearingElements.size() == 5){
+            disappearingElements.each {it1-> elementText.add(it1.text)}
+            return
+        }else{
+            driver.navigate().refresh()
+        }
+    }
+    elementText.each {println it}
 }
 After(){
    //driver.close()
