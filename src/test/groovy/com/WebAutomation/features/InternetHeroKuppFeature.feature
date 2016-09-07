@@ -39,3 +39,38 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Disappearing Elements" link
     And I validate the page Url "disappearing_elements"
     Then I get all the menus which appears
+
+  Scenario: I have to drag and drop the element
+    Given I navigate to the test application
+    Then I click on "Drag and Drop" link
+    And I validate the page Url "drag_and_drop"
+    Then I perform drag and drop operation
+
+  Scenario: I have to play with select option
+    Given I navigate to the test application
+    Then I click on "Dropdown" link
+    And I validate the page Url "dropdown"
+    Then I have to select the option
+
+  Scenario: I have to play with dynamic control
+    Given I navigate to the test application
+    Then I click on "Dynamic Controls" link
+    And I validate the page Url "dynamic_controls"
+    Then I have to play with dynamic controls
+    Then I have to play with wait for element
+
+
+  Scenario: I have to play with dynamic loading
+    Given I navigate to the test application
+    Then I click on "Dynamic Loading" link
+    And I validate the page Url "dynamic_loading"
+    Then I click on first link
+    Then Click on start button in the first page
+    Then I click on second link
+    Then Click on start button in the second page
+
+  Scenario: I have to play with exit intent
+    Given I navigate to the test application
+    Then I click on "Exit Intent" link
+    And I validate the page Url "exit_intent"
+    Then I get the position of exit intent element
