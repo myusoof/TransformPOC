@@ -1,6 +1,7 @@
 package com.WebAutomation.steps
 
 import com.RestAutomation.helper.ConfigurationHelper
+import com.WebAutomation.MailVerifier
 import com.WebAutomation.WebDriverHelper
 import com.WebAutomation.WebDriverHelper
 import groovy.transform.Field
@@ -8,6 +9,8 @@ import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.ExpectedConditions
+import org.openqa.selenium.support.ui.WebDriverWait
 
 /**
  * Created by yusoof on 5/9/16.
@@ -60,6 +63,22 @@ Then(~'I would test the floating menu'){->
     element.click()
 }
 
+Then(~'I woud like to retrieve forgot password'){->
+    WebElement emailField = driver.findElement(By.id("email"))
+    emailField.sendKeys(ConfigurationHelper.emailAddress)
+    WebElement forgotPassword = driver.findElement(By.id("form_submit"))
+    forgotPassword.click()
+    WebElement element = driver.findElement(By.id("content"))
+    new WebDriverWait(driver,15).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
+    MailVerifier mailVerifier = new MailVerifier(ConfigurationHelper.mailServer,ConfigurationHelper.emailAddress, ConfigurationHelper.emailPassword)
+    mailVerifier.isMailFound("Forgot Password from the-internet")
+    String retrievalLink = mailVerifier.retrievalLink
+    driver.navigate().to(retrievalLink)
+    driver.findElement(By.id("email")).sendKeys(ConfigurationHelper.emailAddress)
+    driver.findElement(By.id("form_submit")).click()
+    element = driver.findElement(By.id("content"))
+    new WebDriverWait(driver,25).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
+}
 
 private String getTextFromCanvasElement(WebElement element) {
     String textReturn  =((JavascriptExecutor)driver).executeScript("""

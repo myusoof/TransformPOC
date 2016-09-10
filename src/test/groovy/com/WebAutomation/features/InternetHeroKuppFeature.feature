@@ -93,3 +93,9 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Floating Menu" link
     And I validate the page Url "floating_menu"
     Then I would test the floating menu
+
+  Scenario: I have to test forgot password
+    Given I navigate to the test application
+    Then I click on "Forgot Password" link
+    And I validate the page Url "forgot_password"
+    Then I woud like to retrieve forgot password

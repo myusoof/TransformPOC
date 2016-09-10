@@ -25,4 +25,14 @@ public class ConfigurationHelper {
     public static String getWebAppliationBaseUrl(){
         return ConfigurationHelper.getProperties().get("webappliationbaseurl")
     }
+
+    public static String getEmailAddress(){
+        return ConfigurationHelper.getProperties().get("emailAddress")
+    }
+    public static String getMailServer(){
+        return ConfigurationHelper.getProperties().get("mailServer")
+    }
+    public static String getEmailPassword(){
+        return ConfigurationHelper.getProperties().get("emailPassword")
+    }
 }
