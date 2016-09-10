@@ -42,6 +42,25 @@ Then (~'I validate the third button click'){->
     println element1
 }
 
+Then(~'I upload the file via text'){->
+    WebElement element = driver.findElement(By.xpath("//*[@id='file-upload']"))
+    element.sendKeys("/home/yusoof/Downloads/Read Me.txt")
+    element = driver.findElement(By.xpath("//*[@id='file-submit']"))
+    element.click()
+}
+
+Then(~'I would test the floating menu'){->
+    WebElement element = driver.findElement(By.xpath("//a[text()='Home']"))
+    element.click()
+    element = driver.findElement(By.xpath("//a[text()='News']"))
+    element.click()
+    element = driver.findElement(By.xpath("//a[text()='Contact']"))
+    element.click()
+    element = driver.findElement(By.xpath("//a[text()='About']"))
+    element.click()
+}
+
+
 private String getTextFromCanvasElement(WebElement element) {
     String textReturn  =((JavascriptExecutor)driver).executeScript("""
         var elementText = arguments[0].innerText;

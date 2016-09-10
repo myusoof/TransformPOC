@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.firefox.FirefoxProfile
 import org.openqa.selenium.ie.InternetExplorerDriver
 import org.openqa.selenium.opera.OperaDriver
 import org.openqa.selenium.safari.SafariDriver
@@ -17,11 +18,12 @@ import org.openqa.selenium.safari.SafariDriver
 public class WebDriverHelper {
 
     private static WebDriver driver = null;
+    public static String downloadPath = "/home/yusoof/Downloads/"
     public static createWebDriverInstance(String driverType){
         if(driver == null){
             switch (driverType){
                 case "firefox":
-                    driver  = new FirefoxDriver();
+                    driver  = new FirefoxDriver(FirefoxDriverProfile());
                     break;
                 case "IE":
                     driver = new InternetExplorerDriver();
@@ -36,7 +38,7 @@ public class WebDriverHelper {
                     driver = new OperaDriver();
                     break;
                 default:
-                    driver = new FirefoxDriver();
+                    driver = new FirefoxDriver(FirefoxDriverProfile());
                     break;
             }
         }
@@ -73,5 +75,23 @@ public class WebDriverHelper {
             default:
                 return By.xpath(elementLocator)
         }
+    }
+
+    public static FirefoxProfile FirefoxDriverProfile() throws Exception {
+        FirefoxProfile profile = new FirefoxProfile();
+        profile.setPreference("browser.download.folderList",10);
+        profile.setPreference("browser.download.manager.showWhenStarting", false);
+        profile.setPreference("browser.download.dir", downloadPath);
+        profile.setPreference("browser.helperApps.neverAsk.openFile",
+                "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+        profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
+                "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+        profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+        profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
+        profile.setPreference("browser.download.manager.focusWhenStarting", false);
+        profile.setPreference("browser.download.manager.useWindow", false);
+        profile.setPreference("browser.download.manager.showAlertOnComplete", false);
+        profile.setPreference("browser.download.manager.closeWhenDone", false);
+        return profile;
     }
 }

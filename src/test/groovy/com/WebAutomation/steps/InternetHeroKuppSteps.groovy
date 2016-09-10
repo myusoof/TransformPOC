@@ -8,6 +8,7 @@ import cucumber.api.DataTable
 import groovy.transform.Field
 import groovyx.net.http.RESTClient
 import junit.framework.Assert
+import org.apache.http.HttpResponse
 import org.junit.After
 import org.openqa.selenium.Alert
 import org.openqa.selenium.By
@@ -193,6 +194,14 @@ Then(~'I get the position of exit intent element'){->
     WebElement footerElement = driver.findElement(By.xpath("//*[@class='modal-footer']"))
 
     footerElement.click()
+}
+
+Then(~'I download the file'){->
+    List<WebElement> element = driver.findElements(By.xpath("//div[@class='example']//a"))
+    element.each {
+        HttpResponse response = client.get(uri: it.getAttribute("href"))
+        assert response.responseData.count > 0
+    }
 }
 
 After(){

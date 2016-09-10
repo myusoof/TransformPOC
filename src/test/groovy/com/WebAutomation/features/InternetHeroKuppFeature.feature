@@ -74,3 +74,22 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Exit Intent" link
     And I validate the page Url "exit_intent"
     Then I get the position of exit intent element
+
+  Scenario: I have to download the file for firefox
+    Given I navigate to the test application
+    Then I click on "File Download" link
+    And I validate the page Url "download"
+    Then I download the file
+
+
+  Scenario: I have to upload the file for firefox
+    Given I navigate to the test application
+    Then I click on "File Upload" link
+    And I validate the page Url "upload"
+    Then I upload the file via text
+
+  Scenario: I have to test the floating menu
+    Given I navigate to the test application
+    Then I click on "Floating Menu" link
+    And I validate the page Url "floating_menu"
+    Then I would test the floating menu
