@@ -69,7 +69,7 @@ Then(~'I woud like to retrieve forgot password'){->
     WebElement forgotPassword = driver.findElement(By.id("form_submit"))
     forgotPassword.click()
     WebElement element = driver.findElement(By.id("content"))
-    new WebDriverWait(driver,15).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
+    WebDriverHelper.WaitInstance(15).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
     MailVerifier mailVerifier = new MailVerifier(ConfigurationHelper.mailServer,ConfigurationHelper.emailAddress, ConfigurationHelper.emailPassword)
     mailVerifier.isMailFound("Forgot Password from the-internet")
     String retrievalLink = mailVerifier.retrievalLink
@@ -77,7 +77,41 @@ Then(~'I woud like to retrieve forgot password'){->
     driver.findElement(By.id("email")).sendKeys(ConfigurationHelper.emailAddress)
     driver.findElement(By.id("form_submit")).click()
     element = driver.findElement(By.id("content"))
-    new WebDriverWait(driver,25).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
+    WebDriverHelper.WaitInstance(25).until(ExpectedConditions.textToBePresentInElement(element,"Your e-mail's been sent!"))
+}
+
+Then(~'I enter the username and password'){->
+    def usernameElement = driver.findElement(By.id("username"))
+    def passwordElement = driver.findElement(By.id("password"))
+    def loginElement = driver.findElement(By.className("radius"))
+    usernameElement.sendKeys("tomsmith")
+    passwordElement.sendKeys("SuperSecretPassword!")
+    loginElement.click()
+    WebDriverHelper.WaitInstance(15).until(ExpectedConditions.visibilityOf(driver.findElement(By.id("flash"))))
+    def logoutButton = driver.findElement(By.xpath("//*[@id='content']//a"))
+    logoutButton.click()
+}
+//Then(~'I click on "(.*)"'){ linkName->
+//    driver.findElement(By.xpath("//a[contains(.,'${linkName}')]")).click()
+//}
+Then(~'I switch to the frame "(.*)"'){ frameName->
+    driver.switchTo().frame(frameName)
+}
+Then(~'I assert the text is "(.*)"'){text->
+    assert driver.findElement(By.xpath("//body")).text, text
+}
+
+Then(~'back to default frame'){->
+    driver.switchTo().defaultContent()
+}
+Then(~'get the content in the frame'){->
+    assert driver.findElement(By.xpath("//body")).text, "Your content goes here."
+}
+
+Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
+    WebDriverHelper.WaitInstance(15).until(ExpectedConditions.refreshed())
+    WebDriverHelper.JavaScripExecutor().executeScript("jQuery('#${frameid}').contents().find('p').html('${content}')")
+    driver.findElement(By.xpath("//body/p")).sendKeys("yusoof")
 }
 
 private String getTextFromCanvasElement(WebElement element) {

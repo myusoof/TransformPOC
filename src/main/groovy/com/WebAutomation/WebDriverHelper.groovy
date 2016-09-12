@@ -11,6 +11,8 @@ import org.openqa.selenium.firefox.FirefoxProfile
 import org.openqa.selenium.ie.InternetExplorerDriver
 import org.openqa.selenium.opera.OperaDriver
 import org.openqa.selenium.safari.SafariDriver
+import org.openqa.selenium.support.ui.ExpectedCondition
+import org.openqa.selenium.support.ui.WebDriverWait
 
 /**
  * Created by yusoof on 31/8/16.
@@ -54,6 +56,10 @@ public class WebDriverHelper {
         def elements = ((JavascriptExecutor)(driver)).executeScript("""return \$('$JQuerySelector').get()""")
         elements
     }
+
+    public static JavascriptExecutor JavaScripExecutor(){
+        ((JavascriptExecutor)(driver))
+    }
     public static By ByWhat(String type, String elementLocator){
         switch (type.toLowerCase()){
             case "xpath":
@@ -77,6 +83,18 @@ public class WebDriverHelper {
         }
     }
 
+    public static void waitForJQuery() {
+        (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver d) {
+                JavascriptExecutor js = (JavascriptExecutor) d;
+                return (Boolean) js.executeScript("return !!window.jQuery && window.jQuery.active == 0");
+            }
+        });
+    }
+
+    public static WebDriverWait WaitInstance(int time){
+        new WebDriverWait(driver,time)
+    }
     public static FirefoxProfile FirefoxDriverProfile() throws Exception {
         FirefoxProfile profile = new FirefoxProfile();
         profile.setPreference("browser.download.folderList",10);

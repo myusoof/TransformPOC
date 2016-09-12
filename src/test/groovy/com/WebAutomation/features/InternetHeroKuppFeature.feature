@@ -99,3 +99,35 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Forgot Password" link
     And I validate the page Url "forgot_password"
     Then I woud like to retrieve forgot password
+
+
+  Scenario: I have to have form authenication
+    Given I navigate to the test application
+    Then I click on "Form Authentication" link
+    And I validate the page Url "login"
+    Then I enter the username and password
+
+  Scenario: I have to play with frames
+    Given I navigate to the test application
+    Then I click on "Frames" link
+    And I validate the page Url "frames"
+    Then I click on "Nested Frames" link
+    Then I switch to the frame "frame-top"
+    Then I switch to the frame "frame-left"
+    Then I assert the text is "LEFT"
+    Then back to default frame
+    Then I switch to the frame "frame-top"
+    Then I switch to the frame "frame-middle"
+    Then I assert the text is "MIDDLE"
+    Then back to default frame
+    Then I switch to the frame "frame-bottom"
+    Then I assert the text is "BOTTOM"
+
+  Scenario: I have to play with iframe
+    Given I navigate to the test application
+    Then I click on "Frames" link
+    And I validate the page Url "frames"
+    Then I click on "iFrame" link
+    Then I switch to the frame "mce_0_ifr"
+    Then get the content in the frame
+    Then set the content "<B> Following is the new content </B>" in the frameid "mce_0_ifr"

@@ -46,6 +46,7 @@ Given(~'I navigate to the test application'){ ->
 }
 
 Then(~'I click on "(.*)" link'){ linkName ->
+    Thread.sleep(2000)
     driver.findElement(By.xpath("//a[text()='$linkName']")).click()
 }
 Then(~'I click on Basic Auth link'){ ->
@@ -147,16 +148,16 @@ Then(~'I have to select the option'){->
 Then(~'I have to play with dynamic controls'){->
     WebElement element = driver.findElement(By.xpath("//button[text()='Remove']"))
     element.click()
-    new WebDriverWait(driver,15000).until(ExpectedConditions.textToBePresentInElement(element,"Add"))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element,"Add"))
      element = driver.findElement(By.xpath("//button[text()='Add']"))
     element.click()
-    new WebDriverWait(driver,15000).until(ExpectedConditions.textToBePresentInElement(element,"Remove"))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element,"Remove"))
 
 }
 Then(~'I have to play with wait for element'){->
     WebElement element = driver.findElement(By.xpath("//button[text()='Remove']"))
     element.click()
-    new WebDriverWait(driver,15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(".//input[@id='checkbox']")))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(".//input[@id='checkbox']")))
     element = driver.findElement(By.xpath("//button[text()='Add']"))
     element.click()
 }
@@ -167,7 +168,7 @@ Then(~'I click on first link'){->
 Then(~'Click on start button in the first page'){->
     WebElement element = driver.findElement(By.xpath("//*[@id='start']/button"))
     element.click()
-    new WebDriverWait(driver,15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
     println driver.findElement(By.xpath("//*[@id='finish']")).text
     driver.navigate().back()
 }
@@ -179,7 +180,7 @@ Then(~'I click on second link'){->
 Then(~'Click on start button in the second page'){->
     WebElement element = driver.findElement(By.xpath("//*[@id='start']/button"))
     element.click()
-    new WebDriverWait(driver,15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
     println driver.findElement(By.xpath("//*[@id='finish']")).text
     driver.navigate().back()
 }
