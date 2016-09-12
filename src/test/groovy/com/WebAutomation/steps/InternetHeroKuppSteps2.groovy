@@ -109,9 +109,11 @@ Then(~'get the content in the frame'){->
 }
 
 Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
-    WebDriverHelper.WaitInstance(15).until(ExpectedConditions.refreshed())
-    WebDriverHelper.JavaScripExecutor().executeScript("jQuery('#${frameid}').contents().find('p').html('${content}')")
-    driver.findElement(By.xpath("//body/p")).sendKeys("yusoof")
+    //WebDriverHelper.waitForJQuery()
+    String jQuery = "\$('#${frameid}').contents().find('p').html('${content}')"
+    WebElement element = driver.findElement(By.xpath("//iframe"))
+    //WebDriverHelper.JavaScripExecutor().executeScript("arguments[0].contentWindow.document.body.innerHTML= 'test'",element)
+    WebDriverHelper.JavaScripExecutor().executeScript(jQuery)
 }
 
 private String getTextFromCanvasElement(WebElement element) {

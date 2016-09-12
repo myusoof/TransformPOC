@@ -40,7 +40,7 @@ public class WebDriverHelper {
                     driver = new OperaDriver();
                     break;
                 default:
-                    driver = new FirefoxDriver(FirefoxDriverProfile());
+                    driver = new FirefoxDriver();
                     break;
             }
         }
@@ -60,6 +60,7 @@ public class WebDriverHelper {
     public static JavascriptExecutor JavaScripExecutor(){
         ((JavascriptExecutor)(driver))
     }
+
     public static By ByWhat(String type, String elementLocator){
         switch (type.toLowerCase()){
             case "xpath":
@@ -84,7 +85,7 @@ public class WebDriverHelper {
     }
 
     public static void waitForJQuery() {
-        (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+        (new WebDriverWait(driver, 15)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
                 JavascriptExecutor js = (JavascriptExecutor) d;
                 return (Boolean) js.executeScript("return !!window.jQuery && window.jQuery.active == 0");

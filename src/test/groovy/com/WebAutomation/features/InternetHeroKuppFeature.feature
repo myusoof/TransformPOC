@@ -130,4 +130,5 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "iFrame" link
     Then I switch to the frame "mce_0_ifr"
     Then get the content in the frame
+    Then back to default frame
     Then set the content "<B> Following is the new content </B>" in the frameid "mce_0_ifr"
