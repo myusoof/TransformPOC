@@ -132,3 +132,9 @@ Feature: I have to automate the complete internetherokupp application
     Then get the content in the frame
     Then back to default frame
     Then set the content "<B> Following is the new content </B>" in the frameid "mce_0_ifr"
+
+  Scenario: I have to play with slider
+    Given I navigate to the test application
+    Then I click on "Horizontal Slider" link
+    And I validate the page Url "horizontal_slider"
+    Then I perform the slider action

@@ -116,6 +116,18 @@ Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
     WebDriverHelper.JavaScripExecutor().executeScript(jQuery)
 }
 
+Then(~'I perform the slider action'){ ->
+    WebElement element = driver.findElement(By.xpath("//*[@id='content']/div/div/input"))
+    WebDriverHelper.GetAction().dragAndDropBy(element,10, 0).build().perform()
+    //dragAndDropByPercentage(element,166)
+}
+
+private void dragAndDropByPercentage(WebElement element, int percentage){
+
+    WebDriverHelper.GetAction().dragAndDropBy(element,((10*percentage)/100).toInteger(), 0).build().perform()
+}
+
+
 private String getTextFromCanvasElement(WebElement element) {
     String textReturn  =((JavascriptExecutor)driver).executeScript("""
         var elementText = arguments[0].innerText;

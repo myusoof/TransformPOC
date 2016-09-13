@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.firefox.FirefoxProfile
 import org.openqa.selenium.ie.InternetExplorerDriver
+import org.openqa.selenium.interactions.Action
+import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.opera.OperaDriver
 import org.openqa.selenium.safari.SafariDriver
 import org.openqa.selenium.support.ui.ExpectedCondition
@@ -91,6 +93,9 @@ public class WebDriverHelper {
                 return (Boolean) js.executeScript("return !!window.jQuery && window.jQuery.active == 0");
             }
         });
+    }
+    public static Actions GetAction(){
+        return new Actions(driver)
     }
 
     public static WebDriverWait WaitInstance(int time){
