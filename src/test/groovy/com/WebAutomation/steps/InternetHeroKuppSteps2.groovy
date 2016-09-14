@@ -150,7 +150,57 @@ Then(~'I work with jquery menu'){ ->
     HttpResponse response = client.get(uri: pdfUrl)
     assert response.responseData.buf.size() > 0
 }
+Then(~'I work with key press'){ ->
+    WebDriverHelper.GetAction().sendKeys(Keys.TAB).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    /*WebDriverHelper.GetAction().sendKeys(Keys.ENTER).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/*//*[@id='result']"))).text*/
+    WebDriverHelper.GetAction().sendKeys(Keys.ESCAPE).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.F1).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
 
+    WebDriverHelper.GetAction().sendKeys(Keys.CONTROL).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.BACK_SPACE).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.SUBTRACT).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.SPACE).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.BACK_SPACE).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys("A").build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.PAGE_DOWN).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.PAGE_UP).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.END).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.ENTER).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.ARROW_DOWN).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+    WebDriverHelper.GetAction().sendKeys(Keys.ARROW_UP).build().perform()
+    println WebDriverHelper.WaitInstance().until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='result']"))).text
+
+}
+
+Then(~'I work with multiple window'){->
+    String parentWindow = driver.getWindowHandle()
+    driver.findElement(By.xpath("//*[@id='content']/div/a")).click()
+    List<String> windows = driver.getWindowHandles().toList()
+    // switch to child window
+    driver.switchTo().window(windows.find {it -> it != parentWindow})
+
+    String childWindow = driver.getWindowHandle()
+    println childWindow
+    println driver.findElement(By.xpath("//h3")).text
+    driver.close()
+    driver.switchTo().window(parentWindow)
+    assert driver.findElement(By.xpath("//h3")).text == "Opening a new window"
+}
 Then(~'I click on button with text "(.*)"'){text ->
     driver.findElement(By.xpath("//button[text()='${text}']")).click()
 }

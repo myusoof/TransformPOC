@@ -98,7 +98,7 @@ public class WebDriverHelper {
         return new Actions(driver)
     }
 
-    public static WebDriverWait WaitInstance(int time){
+    public static WebDriverWait WaitInstance(int time=10){
         new WebDriverWait(driver,time)
     }
     public static FirefoxProfile FirefoxDriverProfile() throws Exception {

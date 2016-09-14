@@ -175,3 +175,14 @@ Feature: I have to automate the complete internetherokupp application
     Then I would like to play with js prompt accept
     Then I verify the text in the page "You entered: yusoof"
 
+  Scenario: I have to play with key press
+    Given I navigate to the test application
+    Then I click on "Key Presses" link
+    And I validate the page Url "key_presses"
+    Then I work with key press
+
+  Scenario: I have to play with multiple window
+    Given I navigate to the test application
+    Then I click on "Multiple Windows" link
+    And I validate the page Url "windows"
+    Then I work with multiple window
