@@ -158,4 +158,20 @@ Feature: I have to automate the complete internetherokupp application
     And I validate the page Url "jqueryui/menu"
     Then I work with jquery menu
 
+  Scenario: I have to play with js alerts
+    Given I navigate to the test application
+    Then I click on "JavaScript Alerts" link
+    And I validate the page Url "javascript_alerts"
+    Then I click on button with text "Click for JS Alert"
+    Then I would like to play with js alerts
+    Then I verify the text in the page "You successfuly clicked an alert"
+    Then I click on button with text "Click for JS Confirm"
+    Then I would like to play with js confirmation accept
+    Then I verify the text in the page "You clicked: Ok"
+    Then I click on button with text "Click for JS Confirm"
+    Then I would like to play with js confirmation dismiss
+    Then I verify the text in the page "You clicked: Cancel"
+    Then I click on button with text "Click for JS Prompt"
+    Then I would like to play with js prompt accept
+    Then I verify the text in the page "You entered: yusoof"
 

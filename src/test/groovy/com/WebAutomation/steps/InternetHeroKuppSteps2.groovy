@@ -7,6 +7,7 @@ import com.WebAutomation.WebDriverHelper
 import com.WebAutomation.WebDriverHelper
 import groovy.transform.Field
 import org.apache.http.HttpResponse
+import org.openqa.selenium.Alert
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.Keys
@@ -147,9 +148,38 @@ Then(~'I work with jquery menu'){ ->
     String pdfUrl = driver.findElement(By.xpath("//a[text()='PDF']")).getAttribute("href")
 
     HttpResponse response = client.get(uri: pdfUrl)
-    println response.responseData
-    println Arrays.toString(response.responseData)
+    assert response.responseData.buf.size() > 0
+}
 
+Then(~'I click on button with text "(.*)"'){text ->
+    driver.findElement(By.xpath("//button[text()='${text}']")).click()
+}
+
+Then(~'I would like to play with js alerts'){->
+    Alert alert = driver.switchTo().alert()
+    println alert.text
+    alert.accept()
+}
+
+Then(~'I would like to play with js confirmation accept'){->
+    Alert alert = driver.switchTo().alert()
+    println alert.text
+    alert.accept()
+}
+
+Then(~'I would like to play with js confirmation dismiss'){->
+    Alert alert = driver.switchTo().alert()
+    println alert.text
+    alert.dismiss()
+}
+Then(~'I would like to play with js prompt accept'){->
+    Alert alert = driver.switchTo().alert()
+    alert.sendKeys("yusoof")
+    alert.accept()
+}
+
+Then(~'I verify the text in the page "(.*)"'){text ->
+    assert driver.getPageSource().toString().contains(text)
 }
 
 private void dragAndDropByPercentage(WebElement element, int percentage){
