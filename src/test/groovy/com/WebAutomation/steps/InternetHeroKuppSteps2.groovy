@@ -1,12 +1,15 @@
 package com.WebAutomation.steps
 
 import com.RestAutomation.helper.ConfigurationHelper
+import com.RestAutomation.helper.RestClient
 import com.WebAutomation.MailVerifier
 import com.WebAutomation.WebDriverHelper
 import com.WebAutomation.WebDriverHelper
 import groovy.transform.Field
+import org.apache.http.HttpResponse
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.ExpectedConditions
@@ -20,6 +23,9 @@ this.metaClass.mixin(cucumber.api.groovy.EN)
 
 @Field
 WebDriver driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
+
+@Field
+RestClient client = RestClient.getRestInstance()
 
 Then(~'I verify the text in the canvas element'){->
     WebElement element= WebDriverHelper.FindElementsWithJQuery("script:not([src])")[1]
@@ -118,8 +124,32 @@ Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
 
 Then(~'I perform the slider action'){ ->
     WebElement element = driver.findElement(By.xpath("//*[@id='content']/div/div/input"))
-    WebDriverHelper.GetAction().dragAndDropBy(element,10, 0).build().perform()
+    WebDriverHelper.GetAction().dragAndDropBy(element,5, 0).build().perform()
+    WebDriverHelper.GetAction().dragAndDropBy(element,2, 0).build().perform()
     //dragAndDropByPercentage(element,166)
+}
+
+Then(~'I press the space to scroll down'){ ->
+    //scroll down
+    5.times {
+        Thread.sleep(5000)
+        WebDriverHelper.JavaScripExecutor().executeScript("setTimeout(scrollBy(0,2500),5000)")
+    }
+    //scroll up
+    5.times {
+        WebDriverHelper.JavaScripExecutor().executeScript("setTimeout(scrollBy(0,-2500),5000)")
+    }
+}
+Then(~'I work with jquery menu'){ ->
+    WebDriverHelper.GetAction().moveToElement(driver.findElement(By.xpath("//a[text()='Enabled']"))).build().perform()
+    WebDriverHelper.GetAction().moveToElement(driver.findElement(By.xpath("//a[text()='Downloads']"))).build().perform()
+    WebDriverHelper.GetAction().moveToElement(driver.findElement(By.xpath("//a[text()='PDF']"))).build().perform()
+    String pdfUrl = driver.findElement(By.xpath("//a[text()='PDF']")).getAttribute("href")
+
+    HttpResponse response = client.get(uri: pdfUrl)
+    println response.responseData
+    println Arrays.toString(response.responseData)
+
 }
 
 private void dragAndDropByPercentage(WebElement element, int percentage){

@@ -138,3 +138,24 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Horizontal Slider" link
     And I validate the page Url "horizontal_slider"
     Then I perform the slider action
+
+  Scenario: I have to play with hover
+    Given I navigate to the test application
+    Then I click on "Hovers" link
+    And I validate the page Url "hovers"
+    Then I hover over the pic
+    And I validate the page Url "users/1"
+
+  Scenario: I have to play with scroll infinite
+    Given I navigate to the test application
+    Then I click on "Infinite Scroll" link
+    And I validate the page Url "infinite_scroll"
+    Then I press the space to scroll down
+
+  Scenario: I have to play with jquery menu
+    Given I navigate to the test application
+    Then I click on "JQuery UI Menus" link
+    And I validate the page Url "jqueryui/menu"
+    Then I work with jquery menu
+
+
