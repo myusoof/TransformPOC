@@ -161,6 +161,18 @@ Then(~'I have to play with wait for element'){->
     element = driver.findElement(By.xpath("//button[text()='Add']"))
     element.click()
 }
+
+Then(~'I play with shifting content'){ ->
+    driver.manage().window().maximize()
+    WebElement element = driver.findElement(By.xpath("//a[text()='Gallery']"))
+    Locatable locatable = (Locatable)element
+    println "${locatable.getCoordinates().onPage().x}, ${locatable.getCoordinates().onPage().y}"
+    driver.findElement(By.xpath("//p[contains(text(),'To do both together')]/a")).click()
+    element = driver.findElement(By.xpath("//a[text()='Gallery']"))
+    locatable = (Locatable)element
+    println "${locatable.getCoordinates().onPage().x}, ${locatable.getCoordinates().onPage().y}"
+}
+
 Then(~'I click on first link'){->
     WebElement firstElement = driver.findElement(By.xpath("//div[@class='example']/a[1]"))
     firstElement.click()

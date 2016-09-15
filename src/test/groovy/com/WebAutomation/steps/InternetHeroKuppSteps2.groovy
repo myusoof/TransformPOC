@@ -201,8 +201,18 @@ Then(~'I work with multiple window'){->
     driver.switchTo().window(parentWindow)
     assert driver.findElement(By.xpath("//h3")).text == "Opening a new window"
 }
+
+
+Then(~'I click on the link until succesful'){ ->
+    driver.findElement(By.xpath("//*[@id='content']/div/p/a")).click()
+    String text1= driver.findElement(By.xpath("//*[@id='flash']")).text
+    while (!driver.findElement(By.xpath("//*[@id='flash']")).text.contains("Action successful")){
+        driver.findElement(By.xpath("//*[@id='content']/div/p/a")).click()
+    }
+}
+
 Then(~'I click on button with text "(.*)"'){text ->
-    driver.findElement(By.xpath("//button[text()='${text}']")).click()
+    driver.findElement(By.xpath("//*[text()='${text}']")).click()
 }
 
 Then(~'I would like to play with js alerts'){->

@@ -186,3 +186,23 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Multiple Windows" link
     And I validate the page Url "windows"
     Then I work with multiple window
+
+  Scenario: I have to play with Notification Messages
+    Given I navigate to the test application
+    Then I click on "Notification Messages" link
+    And I validate the page Url "notification_message_rendered"
+    Then I click on the link until succesful
+
+  Scenario: I have to play with redirect link
+    Given I navigate to the test application
+    Then I click on "Redirect Link" link
+    And I validate the page Url "redirector"
+    Then I click on button with text "here"
+    And I validate the page Url "status_codes"
+
+  Scenario: I have to play with Shifting Content
+    Given I navigate to the test application
+    Then I click on "Shifting Content" link
+    And I validate the page Url "shifting_content"
+    Then I click on button with text "Example 1: Menu Element"
+    And I play with shifting content
