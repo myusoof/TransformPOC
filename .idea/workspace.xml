@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6074c17e-3670-446a-a362-a44c3213e292" name="Default" comment="">
+    <list default="true" id="ba2a2b3f-34ec-4cfb-bc06-5187ccfa1b1f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/ElementPosition.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14-rc-3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TransformPoC.ipr" afterPath="$PROJECT_DIR$/TransformPoC.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" />
     </list>
     <ignored path="TransformPoC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,37 +46,13 @@
     <favorites_list name="TransformPoC" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InternetHeroKuppSteps.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
+    <leaf>
+      <file leaf-file-name="InternetHeroKuppSteps2.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39492753">
-              <caret line="165" column="39" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coordinates.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/interactions/internal/Coordinates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#2387#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EN.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/api/groovy/EN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="method#And#0;class#EN#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,20 +61,18 @@
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="207" column="30" selection-start-line="207" selection-start-column="30" selection-end-line="207" selection-end-column="30" />
+              <caret line="214" column="40" selection-start-line="214" selection-start-column="40" selection-end-line="214" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InternetHeroKuppSteps2.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
+      <file leaf-file-name="InternetHeroKuppSteps.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
-              <folding>
-                <element signature="e#33#85#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5881007">
+              <caret line="207" column="106" selection-start-line="207" selection-start-column="106" selection-end-line="207" selection-end-column="106" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,88 +81,27 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.1/5977be74f325f044878c4ce6fa7d85f03da8af1/selenium-support-2.53.1-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="198" column="72" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#50921#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3721#3722#0" expanded="false" />
-                <element signature="e#3817#3818#0" expanded="false" />
-                <element signature="e#5915#5916#0" expanded="false" />
-                <element signature="e#5968#5969#0" expanded="false" />
-                <element signature="e#6018#6019#0" expanded="false" />
-                <element signature="e#6087#6088#0" expanded="false" />
-                <element signature="e#6872#6873#0" expanded="false" />
-                <element signature="e#6942#6943#0" expanded="false" />
-                <element signature="e#7860#7861#0" expanded="false" />
-                <element signature="e#7935#7936#0" expanded="false" />
-                <element signature="e#8788#8789#0" expanded="false" />
-                <element signature="e#8844#8845#0" expanded="false" />
-                <element signature="e#9395#9396#0" expanded="false" />
-                <element signature="e#9445#9446#0" expanded="false" />
-                <element signature="e#9495#9496#0" expanded="false" />
-                <element signature="e#9546#9547#0" expanded="false" />
-                <element signature="e#9724#9725#0" expanded="false" />
-                <element signature="e#9779#9780#0" expanded="false" />
-                <element signature="e#10406#10407#0" expanded="false" />
-                <element signature="e#10479#10480#0" expanded="false" />
-                <element signature="e#11222#11223#0" expanded="false" />
-                <element signature="e#11318#11319#0" expanded="false" />
-                <element signature="e#13788#13789#0" expanded="false" />
-                <element signature="e#13886#13887#0" expanded="false" />
-                <element signature="e#15774#15775#0" expanded="false" />
-                <element signature="e#15839#15840#0" expanded="false" />
-                <element signature="e#16580#16581#0" expanded="false" />
-                <element signature="e#16640#16641#0" expanded="false" />
-                <element signature="e#17389#17390#0" expanded="false" />
-                <element signature="e#17454#17455#0" expanded="false" />
-                <element signature="e#18215#18216#0" expanded="false" />
-                <element signature="e#18280#18281#0" expanded="false" />
-                <element signature="e#19303#19304#0" expanded="false" />
-                <element signature="e#19373#19374#0" expanded="false" />
-                <element signature="e#21585#21586#0" expanded="false" />
-                <element signature="e#21647#21648#0" expanded="false" />
-                <element signature="e#22578#22579#0" expanded="false" />
-                <element signature="e#22640#22641#0" expanded="false" />
-                <element signature="e#23330#23331#0" expanded="false" />
-                <element signature="e#23409#23410#0" expanded="false" />
-                <element signature="e#24450#24451#0" expanded="false" />
-                <element signature="e#24533#24534#0" expanded="false" />
-                <element signature="e#25448#25449#0" expanded="false" />
-                <element signature="e#25505#25506#0" expanded="false" />
-                <element signature="e#26888#26889#0" expanded="false" />
-                <element signature="e#26934#26935#0" expanded="false" />
-                <element signature="e#27637#27638#0" expanded="false" />
-                <element signature="e#27719#27720#0" expanded="false" />
-                <element signature="e#28482#28483#0" expanded="false" />
-                <element signature="e#28548#28549#0" expanded="false" />
-                <element signature="e#31520#31521#0" expanded="false" />
-                <element signature="e#31622#31623#0" expanded="false" />
-                <element signature="e#41753#41754#0" expanded="false" />
-                <element signature="e#41838#41839#0" expanded="false" />
-                <element signature="e#42925#42926#0" expanded="false" />
-                <element signature="e#43009#43010#0" expanded="false" />
-                <element signature="e#43932#43933#0" expanded="false" />
-                <element signature="e#44016#44017#0" expanded="false" />
-                <element signature="e#44776#44777#0" expanded="false" />
-                <element signature="e#44850#44851#0" expanded="false" />
-                <element signature="e#45727#45728#0" expanded="false" />
-                <element signature="e#45811#45812#0" expanded="false" />
-                <element signature="e#46535#46536#0" expanded="false" />
-                <element signature="e#46602#46603#0" expanded="false" />
-                <element signature="e#49861#49862#0" expanded="false" />
-                <element signature="e#49937#49938#0" expanded="false" />
-                <element signature="e#50830#50831#0" expanded="false" />
-                <element signature="e#50906#50907#0" expanded="false" />
-              </folding>
+              <caret line="744" column="41" selection-start-line="744" selection-start-column="41" selection-end-line="744" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverHelper.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
+      <file leaf-file-name="ElementPosition.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/ElementPosition.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebElement.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -420,15 +342,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:/Gebhish-Yusoof" value="21962706955630" />
-        <entry key="C:/POC/TransformPoC" value="4393401029059" />
-        <entry key="C:/TransformPoC" value="4392939537941" />
-        <entry key="$PROJECT_DIR$" value="4421545159077" />
-        <entry key="C:/Yusoof/cucumber-jvm-java-example" value="1464354768193" />
-        <entry key="C:/YusoofChan" value="4392916892010" />
-        <entry key="C:/reference/JavaTransform" value="2929218798549" />
-        <entry key="C:/reference/TransformPoC" value="4393428043369" />
-        <entry key="C:/reference/TransformPoC1" value="4393925187542" />
+        <entry key="$USER_HOME$/Downloads/TransformPOC" value="4418441959584" />
+        <entry key="$USER_HOME$/Downloads/TransformPoC" value="4396949207296" />
+        <entry key="$PROJECT_DIR$" value="4421889349359" />
+        <entry key="$USER_HOME$/learning/TransformPoC" value="4393354574089" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -632,133 +549,125 @@
               <option name="name" value="TransformPoC" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/gradle-2.14-rc-3/src/announce" />
-                  <option value="C:/gradle-2.14-rc-3/src/antlr" />
-                  <option value="C:/gradle-2.14-rc-3/src/base-services" />
-                  <option value="C:/gradle-2.14-rc-3/src/base-services-groovy" />
-                  <option value="C:/gradle-2.14-rc-3/src/build-comparison" />
-                  <option value="C:/gradle-2.14-rc-3/src/build-init" />
-                  <option value="C:/gradle-2.14-rc-3/src/cli" />
-                  <option value="C:/gradle-2.14-rc-3/src/code-quality" />
-                  <option value="C:/gradle-2.14-rc-3/src/core" />
-                  <option value="C:/gradle-2.14-rc-3/src/dependency-management" />
-                  <option value="C:/gradle-2.14-rc-3/src/diagnostics" />
-                  <option value="C:/gradle-2.14-rc-3/src/ear" />
-                  <option value="C:/gradle-2.14-rc-3/src/ide" />
-                  <option value="C:/gradle-2.14-rc-3/src/ide-native" />
-                  <option value="C:/gradle-2.14-rc-3/src/ide-play" />
-                  <option value="C:/gradle-2.14-rc-3/src/installation-beacon" />
-                  <option value="C:/gradle-2.14-rc-3/src/internal-integ-testing" />
-                  <option value="C:/gradle-2.14-rc-3/src/internal-testing" />
-                  <option value="C:/gradle-2.14-rc-3/src/ivy" />
-                  <option value="C:/gradle-2.14-rc-3/src/jacoco" />
-                  <option value="C:/gradle-2.14-rc-3/src/javascript" />
-                  <option value="C:/gradle-2.14-rc-3/src/jetty" />
-                  <option value="C:/gradle-2.14-rc-3/src/jvm-services" />
-                  <option value="C:/gradle-2.14-rc-3/src/language-groovy" />
-                  <option value="C:/gradle-2.14-rc-3/src/language-java" />
-                  <option value="C:/gradle-2.14-rc-3/src/language-jvm" />
-                  <option value="C:/gradle-2.14-rc-3/src/language-native" />
-                  <option value="C:/gradle-2.14-rc-3/src/language-scala" />
-                  <option value="C:/gradle-2.14-rc-3/src/launcher" />
-                  <option value="C:/gradle-2.14-rc-3/src/logging" />
-                  <option value="C:/gradle-2.14-rc-3/src/maven" />
-                  <option value="C:/gradle-2.14-rc-3/src/messaging" />
-                  <option value="C:/gradle-2.14-rc-3/src/model-core" />
-                  <option value="C:/gradle-2.14-rc-3/src/model-groovy" />
-                  <option value="C:/gradle-2.14-rc-3/src/native" />
-                  <option value="C:/gradle-2.14-rc-3/src/open-api" />
-                  <option value="C:/gradle-2.14-rc-3/src/osgi" />
-                  <option value="C:/gradle-2.14-rc-3/src/platform-base" />
-                  <option value="C:/gradle-2.14-rc-3/src/platform-jvm" />
-                  <option value="C:/gradle-2.14-rc-3/src/platform-native" />
-                  <option value="C:/gradle-2.14-rc-3/src/platform-play" />
-                  <option value="C:/gradle-2.14-rc-3/src/plugin-development" />
-                  <option value="C:/gradle-2.14-rc-3/src/plugin-use" />
-                  <option value="C:/gradle-2.14-rc-3/src/plugins" />
-                  <option value="C:/gradle-2.14-rc-3/src/process-services" />
-                  <option value="C:/gradle-2.14-rc-3/src/publish" />
-                  <option value="C:/gradle-2.14-rc-3/src/reporting" />
-                  <option value="C:/gradle-2.14-rc-3/src/resources" />
-                  <option value="C:/gradle-2.14-rc-3/src/resources-http" />
-                  <option value="C:/gradle-2.14-rc-3/src/resources-s3" />
-                  <option value="C:/gradle-2.14-rc-3/src/resources-sftp" />
-                  <option value="C:/gradle-2.14-rc-3/src/scala" />
-                  <option value="C:/gradle-2.14-rc-3/src/signing" />
-                  <option value="C:/gradle-2.14-rc-3/src/sonar" />
-                  <option value="C:/gradle-2.14-rc-3/src/test-kit" />
-                  <option value="C:/gradle-2.14-rc-3/src/testing-base" />
-                  <option value="C:/gradle-2.14-rc-3/src/testing-jvm" />
-                  <option value="C:/gradle-2.14-rc-3/src/testing-native" />
-                  <option value="C:/gradle-2.14-rc-3/src/tooling-api" />
-                  <option value="C:/gradle-2.14-rc-3/src/tooling-api-builders" />
-                  <option value="C:/gradle-2.14-rc-3/src/ui" />
-                  <option value="C:/gradle-2.14-rc-3/src/wrapper" />
-                  <option value="C:/gradle-2.14-rc-3/lib/ant-1.9.6.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/ant-launcher-1.9.6.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-base-services-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-base-services-groovy-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-cli-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-core-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-docs-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-installation-beacon-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-jvm-services-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-launcher-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-logging-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-messaging-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-model-core-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-model-groovy-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-native-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-open-api-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-process-services-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-resources-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-tooling-api-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-ui-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/gradle-wrapper-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/groovy-all-2.4.4.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-announce-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-antlr-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-build-comparison-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-build-init-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-code-quality-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-dependency-management-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-diagnostics-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-ear-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-ide-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-ide-native-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-ide-play-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-ivy-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-jacoco-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-javascript-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-jetty-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-language-groovy-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-language-java-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-language-jvm-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-language-native-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-language-scala-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-maven-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-osgi-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-platform-base-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-platform-jvm-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-platform-native-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-platform-play-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-plugin-development-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-plugin-use-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-plugins-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-publish-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-reporting-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-resources-http-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-resources-s3-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-resources-sftp-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-scala-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-signing-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-sonar-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-test-kit-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-testing-base-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-testing-jvm-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-testing-native-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/gradle-tooling-api-builders-2.14-rc-3.jar" />
-                  <option value="C:/gradle-2.14-rc-3/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/opt/gradle-2.13/src/resources-sftp" />
+                  <option value="/opt/gradle-2.13/src/code-quality" />
+                  <option value="/opt/gradle-2.13/src/base-services-groovy" />
+                  <option value="/opt/gradle-2.13/src/language-groovy" />
+                  <option value="/opt/gradle-2.13/src/jetty" />
+                  <option value="/opt/gradle-2.13/src/messaging" />
+                  <option value="/opt/gradle-2.13/src/language-scala" />
+                  <option value="/opt/gradle-2.13/src/platform-play" />
+                  <option value="/opt/gradle-2.13/src/internal-integ-testing" />
+                  <option value="/opt/gradle-2.13/src/open-api" />
+                  <option value="/opt/gradle-2.13/src/reporting" />
+                  <option value="/opt/gradle-2.13/src/cli" />
+                  <option value="/opt/gradle-2.13/src/tooling-api" />
+                  <option value="/opt/gradle-2.13/src/wrapper" />
+                  <option value="/opt/gradle-2.13/src/platform-jvm" />
+                  <option value="/opt/gradle-2.13/src/plugin-development" />
+                  <option value="/opt/gradle-2.13/src/platform-native" />
+                  <option value="/opt/gradle-2.13/src/language-native" />
+                  <option value="/opt/gradle-2.13/src/publish" />
+                  <option value="/opt/gradle-2.13/src/plugin-use" />
+                  <option value="/opt/gradle-2.13/src/maven" />
+                  <option value="/opt/gradle-2.13/src/resources-http" />
+                  <option value="/opt/gradle-2.13/src/osgi" />
+                  <option value="/opt/gradle-2.13/src/resources" />
+                  <option value="/opt/gradle-2.13/src/jacoco" />
+                  <option value="/opt/gradle-2.13/src/language-java" />
+                  <option value="/opt/gradle-2.13/src/dependency-management" />
+                  <option value="/opt/gradle-2.13/src/testing-jvm" />
+                  <option value="/opt/gradle-2.13/src/ear" />
+                  <option value="/opt/gradle-2.13/src/ide-native" />
+                  <option value="/opt/gradle-2.13/src/resources-s3" />
+                  <option value="/opt/gradle-2.13/src/announce" />
+                  <option value="/opt/gradle-2.13/src/plugins" />
+                  <option value="/opt/gradle-2.13/src/platform-base" />
+                  <option value="/opt/gradle-2.13/src/sonar" />
+                  <option value="/opt/gradle-2.13/src/build-comparison" />
+                  <option value="/opt/gradle-2.13/src/model-groovy" />
+                  <option value="/opt/gradle-2.13/src/ui" />
+                  <option value="/opt/gradle-2.13/src/tooling-api-builders" />
+                  <option value="/opt/gradle-2.13/src/model-core" />
+                  <option value="/opt/gradle-2.13/src/language-jvm" />
+                  <option value="/opt/gradle-2.13/src/diagnostics" />
+                  <option value="/opt/gradle-2.13/src/native" />
+                  <option value="/opt/gradle-2.13/src/ivy" />
+                  <option value="/opt/gradle-2.13/src/core" />
+                  <option value="/opt/gradle-2.13/src/internal-testing" />
+                  <option value="/opt/gradle-2.13/src/signing" />
+                  <option value="/opt/gradle-2.13/src/scala" />
+                  <option value="/opt/gradle-2.13/src/launcher" />
+                  <option value="/opt/gradle-2.13/src/ide" />
+                  <option value="/opt/gradle-2.13/src/antlr" />
+                  <option value="/opt/gradle-2.13/src/javascript" />
+                  <option value="/opt/gradle-2.13/src/installation-beacon" />
+                  <option value="/opt/gradle-2.13/src/base-services" />
+                  <option value="/opt/gradle-2.13/src/testing-base" />
+                  <option value="/opt/gradle-2.13/src/test-kit" />
+                  <option value="/opt/gradle-2.13/src/build-init" />
+                  <option value="/opt/gradle-2.13/src/testing-native" />
+                  <option value="/opt/gradle-2.13/lib/gradle-base-services-groovy-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-model-groovy-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-base-services-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-model-core-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-open-api-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-native-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-tooling-api-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-messaging-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-resources-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-docs-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-core-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-wrapper-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-installation-beacon-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/groovy-all-2.4.4.jar" />
+                  <option value="/opt/gradle-2.13/lib/ant-1.9.6.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-ui-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-launcher-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/gradle-cli-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-language-groovy-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-publish-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-reporting-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-build-comparison-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-jacoco-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-resources-s3-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-scala-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-javascript-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-ide-native-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-language-native-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-maven-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-platform-play-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-sonar-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-resources-http-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-platform-base-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-jetty-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-plugin-development-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-platform-native-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-language-jvm-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-language-java-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-ear-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-language-scala-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-testing-jvm-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-platform-jvm-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-announce-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-code-quality-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-signing-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-plugins-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-osgi-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-diagnostics-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-plugin-use-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-antlr-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-resources-sftp-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-testing-base-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-ivy-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-tooling-api-builders-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-build-init-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-test-kit-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-dependency-management-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-ide-2.13.jar" />
+                  <option value="/opt/gradle-2.13/lib/plugins/gradle-testing-native-2.13.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -775,8 +684,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/WebAutomation/ElementPosition.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy" />
       </list>
@@ -790,12 +698,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="740" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -888,10 +796,6 @@
               <option name="myItemId" value="WebAutomation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -966,112 +870,54 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPoC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransformPOC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-  </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: I have to play with Shifting Content">
-    <configuration default="false" name="Scenario: I have to play with key press" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <option name="GLUE" value="C:\Users\mohmedyusoof.as\Downloads\TransformPOC\src\test\groovy\com\WebAutomation\steps" />
-      <option name="myNameFilter" value="^I have to play with key press$" />
-      <option name="myGeneratedName" value="Scenario: I have to play with key press" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with key press$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: I have to play with multiple window" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <option name="GLUE" value="C:\Users\mohmedyusoof.as\Downloads\TransformPOC\src\test\groovy\com\WebAutomation\steps" />
-      <option name="myNameFilter" value="^I have to play with multiple window$" />
-      <option name="myGeneratedName" value="Scenario: I have to play with multiple window" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with multiple window$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: I have to play with Notification Messages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <option name="GLUE" value="C:\Users\mohmedyusoof.as\Downloads\TransformPOC\src\test\groovy\com\WebAutomation\steps" />
-      <option name="myNameFilter" value="^I have to play with Notification Messages$" />
-      <option name="myGeneratedName" value="Scenario: I have to play with Notification Messages" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with Notification Messages$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: I have to play with redirect link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <option name="GLUE" value="C:\Users\mohmedyusoof.as\Downloads\TransformPOC\src\test\groovy\com\WebAutomation\steps" />
-      <option name="myNameFilter" value="^I have to play with redirect link$" />
-      <option name="myGeneratedName" value="Scenario: I have to play with redirect link" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with redirect link$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TransformPoC" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber java.Scenario: I have to play with Shifting Content1">
     <configuration default="false" name="Scenario: I have to play with Shifting Content" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1080,12 +926,36 @@
         </pattern>
       </extension>
       <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
-      <option name="GLUE" value="C:\Users\mohmedyusoof.as\Downloads\TransformPOC\src\test\groovy\com\WebAutomation\steps" />
+      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps" />
       <option name="myNameFilter" value="^I have to play with Shifting Content$" />
       <option name="myGeneratedName" value="Scenario: I have to play with Shifting Content" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with Shifting Content$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TransformPoC" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: I have to play with Shifting Content1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature" />
+      <option name="GLUE" value="$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps" />
+      <option name="myNameFilter" value="^I have to play with Shifting Content1$" />
+      <option name="myGeneratedName" value="Scenario: I have to play with Shifting Content1" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I have to play with Shifting Content1$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1217,15 +1087,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1380,143 +1241,94 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with key press" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with multiple window" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Notification Messages" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with redirect link" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content1" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with redirect link" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Notification Messages" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with multiple window" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with key press" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content1" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: I have to play with Shifting Content" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6074c17e-3670-446a-a362-a44c3213e292" name="Default" comment="" />
-      <created>1473849138902</created>
+      <changelist id="ba2a2b3f-34ec-4cfb-bc06-5187ccfa1b1f" name="Default" comment="" />
+      <created>1473963708044</created>
       <option name="number" value="Default" />
-      <updated>1473849138902</updated>
+      <updated>1473963708044</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__I_have_to_play_with_Notification_Messages - 2016.09.15 at 16h 40m 57s.xml">
-      <configuration name="Scenario: I have to play with Notification Messages" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Notification_Messages - 2016.09.15 at 16h 41m 44s.xml">
-      <configuration name="Scenario: I have to play with Notification Messages" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Notification_Messages - 2016.09.15 at 16h 44m 30s.xml">
-      <configuration name="Scenario: I have to play with Notification Messages" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Notification_Messages - 2016.09.15 at 17h 05m 16s.xml">
-      <configuration name="Scenario: I have to play with Notification Messages" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Notification_Messages - 2016.09.15 at 17h 05m 41s.xml">
-      <configuration name="Scenario: I have to play with Notification Messages" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.15 at 17h 38m 20s.xml">
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.16 at 00h 12m 43s.xml">
       <configuration name="Scenario: I have to play with Shifting Content" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.15 at 17h 46m 51s.xml">
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.16 at 00h 53m 18s.xml">
       <configuration name="Scenario: I have to play with Shifting Content" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.15 at 17h 50m 12s.xml">
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.16 at 00h 55m 12s.xml">
       <configuration name="Scenario: I have to play with Shifting Content" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_redirect_link - 2016.09.15 at 17h 11m 52s.xml">
-      <configuration name="Scenario: I have to play with redirect link" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.16 at 01h 04m 37s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_have_to_play_with_redirect_link - 2016.09.15 at 17h 14m 25s.xml">
-      <configuration name="Scenario: I have to play with redirect link" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content - 2016.09.16 at 01h 11m 43s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content1 - 2016.09.16 at 01h 28m 10s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content1 - 2016.09.16 at 01h 29m 44s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content1 - 2016.09.16 at 01h 32m 01s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content1 - 2016.09.16 at 01h 33m 21s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__I_have_to_play_with_Shifting_Content1 - 2016.09.16 at 01h 35m 53s.xml">
+      <configuration name="Scenario: I have to play with Shifting Content1" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="740" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4991708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35358712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39800996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>149</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>150</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>154</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy</url>
-          <line>155</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1524,123 +1336,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32951945">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="187" column="19" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/ElementPosition.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.1/5977be74f325f044878c4ce6fa7d85f03da8af1/selenium-support-2.53.1-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="198" column="72" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#50921#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3721#3722#0" expanded="false" />
-            <element signature="e#3817#3818#0" expanded="false" />
-            <element signature="e#5915#5916#0" expanded="false" />
-            <element signature="e#5968#5969#0" expanded="false" />
-            <element signature="e#6018#6019#0" expanded="false" />
-            <element signature="e#6087#6088#0" expanded="false" />
-            <element signature="e#6872#6873#0" expanded="false" />
-            <element signature="e#6942#6943#0" expanded="false" />
-            <element signature="e#7860#7861#0" expanded="false" />
-            <element signature="e#7935#7936#0" expanded="false" />
-            <element signature="e#8788#8789#0" expanded="false" />
-            <element signature="e#8844#8845#0" expanded="false" />
-            <element signature="e#9395#9396#0" expanded="false" />
-            <element signature="e#9445#9446#0" expanded="false" />
-            <element signature="e#9495#9496#0" expanded="false" />
-            <element signature="e#9546#9547#0" expanded="false" />
-            <element signature="e#9724#9725#0" expanded="false" />
-            <element signature="e#9779#9780#0" expanded="false" />
-            <element signature="e#10406#10407#0" expanded="false" />
-            <element signature="e#10479#10480#0" expanded="false" />
-            <element signature="e#11222#11223#0" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#13788#13789#0" expanded="false" />
-            <element signature="e#13886#13887#0" expanded="false" />
-            <element signature="e#15774#15775#0" expanded="false" />
-            <element signature="e#15839#15840#0" expanded="false" />
-            <element signature="e#16580#16581#0" expanded="false" />
-            <element signature="e#16640#16641#0" expanded="false" />
-            <element signature="e#17389#17390#0" expanded="false" />
-            <element signature="e#17454#17455#0" expanded="false" />
-            <element signature="e#18215#18216#0" expanded="false" />
-            <element signature="e#18280#18281#0" expanded="false" />
-            <element signature="e#19303#19304#0" expanded="false" />
-            <element signature="e#19373#19374#0" expanded="false" />
-            <element signature="e#21585#21586#0" expanded="false" />
-            <element signature="e#21647#21648#0" expanded="false" />
-            <element signature="e#22578#22579#0" expanded="false" />
-            <element signature="e#22640#22641#0" expanded="false" />
-            <element signature="e#23330#23331#0" expanded="false" />
-            <element signature="e#23409#23410#0" expanded="false" />
-            <element signature="e#24450#24451#0" expanded="false" />
-            <element signature="e#24533#24534#0" expanded="false" />
-            <element signature="e#25448#25449#0" expanded="false" />
-            <element signature="e#25505#25506#0" expanded="false" />
-            <element signature="e#26888#26889#0" expanded="false" />
-            <element signature="e#26934#26935#0" expanded="false" />
-            <element signature="e#27637#27638#0" expanded="false" />
-            <element signature="e#27719#27720#0" expanded="false" />
-            <element signature="e#28482#28483#0" expanded="false" />
-            <element signature="e#28548#28549#0" expanded="false" />
-            <element signature="e#31520#31521#0" expanded="false" />
-            <element signature="e#31622#31623#0" expanded="false" />
-            <element signature="e#41753#41754#0" expanded="false" />
-            <element signature="e#41838#41839#0" expanded="false" />
-            <element signature="e#42925#42926#0" expanded="false" />
-            <element signature="e#43009#43010#0" expanded="false" />
-            <element signature="e#43932#43933#0" expanded="false" />
-            <element signature="e#44016#44017#0" expanded="false" />
-            <element signature="e#44776#44777#0" expanded="false" />
-            <element signature="e#44850#44851#0" expanded="false" />
-            <element signature="e#45727#45728#0" expanded="false" />
-            <element signature="e#45811#45812#0" expanded="false" />
-            <element signature="e#46535#46536#0" expanded="false" />
-            <element signature="e#46602#46603#0" expanded="false" />
-            <element signature="e#49861#49862#0" expanded="false" />
-            <element signature="e#49937#49938#0" expanded="false" />
-            <element signature="e#50830#50831#0" expanded="false" />
-            <element signature="e#50906#50907#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/Keys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1648,112 +1363,7 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.1/5977be74f325f044878c4ce6fa7d85f03da8af1/selenium-support-2.53.1-sources.jar!/org/openqa/selenium/support/ui/ExpectedConditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="198" column="72" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#50921#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3721#3722#0" expanded="false" />
-            <element signature="e#3817#3818#0" expanded="false" />
-            <element signature="e#5915#5916#0" expanded="false" />
-            <element signature="e#5968#5969#0" expanded="false" />
-            <element signature="e#6018#6019#0" expanded="false" />
-            <element signature="e#6087#6088#0" expanded="false" />
-            <element signature="e#6872#6873#0" expanded="false" />
-            <element signature="e#6942#6943#0" expanded="false" />
-            <element signature="e#7860#7861#0" expanded="false" />
-            <element signature="e#7935#7936#0" expanded="false" />
-            <element signature="e#8788#8789#0" expanded="false" />
-            <element signature="e#8844#8845#0" expanded="false" />
-            <element signature="e#9395#9396#0" expanded="false" />
-            <element signature="e#9445#9446#0" expanded="false" />
-            <element signature="e#9495#9496#0" expanded="false" />
-            <element signature="e#9546#9547#0" expanded="false" />
-            <element signature="e#9724#9725#0" expanded="false" />
-            <element signature="e#9779#9780#0" expanded="false" />
-            <element signature="e#10406#10407#0" expanded="false" />
-            <element signature="e#10479#10480#0" expanded="false" />
-            <element signature="e#11222#11223#0" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#13788#13789#0" expanded="false" />
-            <element signature="e#13886#13887#0" expanded="false" />
-            <element signature="e#15774#15775#0" expanded="false" />
-            <element signature="e#15839#15840#0" expanded="false" />
-            <element signature="e#16580#16581#0" expanded="false" />
-            <element signature="e#16640#16641#0" expanded="false" />
-            <element signature="e#17389#17390#0" expanded="false" />
-            <element signature="e#17454#17455#0" expanded="false" />
-            <element signature="e#18215#18216#0" expanded="false" />
-            <element signature="e#18280#18281#0" expanded="false" />
-            <element signature="e#19303#19304#0" expanded="false" />
-            <element signature="e#19373#19374#0" expanded="false" />
-            <element signature="e#21585#21586#0" expanded="false" />
-            <element signature="e#21647#21648#0" expanded="false" />
-            <element signature="e#22578#22579#0" expanded="false" />
-            <element signature="e#22640#22641#0" expanded="false" />
-            <element signature="e#23330#23331#0" expanded="false" />
-            <element signature="e#23409#23410#0" expanded="false" />
-            <element signature="e#24450#24451#0" expanded="false" />
-            <element signature="e#24533#24534#0" expanded="false" />
-            <element signature="e#25448#25449#0" expanded="false" />
-            <element signature="e#25505#25506#0" expanded="false" />
-            <element signature="e#26888#26889#0" expanded="false" />
-            <element signature="e#26934#26935#0" expanded="false" />
-            <element signature="e#27637#27638#0" expanded="false" />
-            <element signature="e#27719#27720#0" expanded="false" />
-            <element signature="e#28482#28483#0" expanded="false" />
-            <element signature="e#28548#28549#0" expanded="false" />
-            <element signature="e#31520#31521#0" expanded="false" />
-            <element signature="e#31622#31623#0" expanded="false" />
-            <element signature="e#41753#41754#0" expanded="false" />
-            <element signature="e#41838#41839#0" expanded="false" />
-            <element signature="e#42925#42926#0" expanded="false" />
-            <element signature="e#43009#43010#0" expanded="false" />
-            <element signature="e#43932#43933#0" expanded="false" />
-            <element signature="e#44016#44017#0" expanded="false" />
-            <element signature="e#44776#44777#0" expanded="false" />
-            <element signature="e#44850#44851#0" expanded="false" />
-            <element signature="e#45727#45728#0" expanded="false" />
-            <element signature="e#45811#45812#0" expanded="false" />
-            <element signature="e#46535#46536#0" expanded="false" />
-            <element signature="e#46602#46603#0" expanded="false" />
-            <element signature="e#49861#49862#0" expanded="false" />
-            <element signature="e#49937#49938#0" expanded="false" />
-            <element signature="e#50830#50831#0" expanded="false" />
-            <element signature="e#50906#50907#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-groovy/1.2.4/6b27e82d505f81e13865b81d9220ea5926dceff/cucumber-groovy-1.2.4-sources.jar!/cucumber/api/groovy/EN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="method#And#0;class#EN#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/Keys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061594203">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/WebAutomation/WebDriverHelper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
+          <caret line="744" column="41" selection-start-line="744" selection-start-column="41" selection-end-line="744" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1761,35 +1371,23 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps2.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/interactions/internal/Coordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#2387#0" expanded="false" />
-          </folding>
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/features/InternetHeroKuppFeature.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="207" column="30" selection-start-line="207" selection-start-column="30" selection-end-line="207" selection-end-column="30" />
+          <caret line="214" column="40" selection-start-line="214" selection-start-column="40" selection-end-line="214" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/WebAutomation/steps/InternetHeroKuppSteps.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39492753">
-          <caret line="165" column="39" selection-start-line="165" selection-start-column="39" selection-end-line="165" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.5881007">
+          <caret line="207" column="106" selection-start-line="207" selection-start-column="106" selection-end-line="207" selection-end-column="106" />
           <folding />
         </state>
       </provider>

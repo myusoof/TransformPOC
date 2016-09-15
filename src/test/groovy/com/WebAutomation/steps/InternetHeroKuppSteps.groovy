@@ -3,6 +3,7 @@ package com.WebAutomation.steps
 import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
 import com.WebAutomation.DialogHelper
+import com.WebAutomation.ElementPosition
 import com.WebAutomation.WebDriverHelper
 import cucumber.api.DataTable
 import groovy.transform.Field
@@ -12,6 +13,7 @@ import org.apache.http.HttpResponse
 import org.junit.After
 import org.openqa.selenium.Alert
 import org.openqa.selenium.By
+import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
@@ -23,6 +25,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.Select
 import org.openqa.selenium.support.ui.WebDriverWait
 
+import javax.annotation.Nullable
 import javax.swing.Action
 import java.awt.Robot
 import java.awt.event.InputEvent
@@ -41,6 +44,12 @@ WebDriver driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.d
 RestClient client = RestClient.getRestInstance()
 Robot robot = new Robot()
 
+ExpectedCondition<Boolean> waitForPageToLoad = new ExpectedCondition<Boolean>() {
+    @Override
+    Boolean apply(WebDriver d) {
+        return ((JavascriptExecutor)d).executeScript("return document.readyState").equals("complete")
+    }
+}
 Given(~'I navigate to the test application'){ ->
     driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
 }
@@ -163,14 +172,45 @@ Then(~'I have to play with wait for element'){->
 }
 
 Then(~'I play with shifting content'){ ->
+
     driver.manage().window().maximize()
     WebElement element = driver.findElement(By.xpath("//a[text()='Gallery']"))
-    Locatable locatable = (Locatable)element
-    println "${locatable.getCoordinates().onPage().x}, ${locatable.getCoordinates().onPage().y}"
+    println new ElementPosition(element).toString()
     driver.findElement(By.xpath("//p[contains(text(),'To do both together')]/a")).click()
     element = driver.findElement(By.xpath("//a[text()='Gallery']"))
-    locatable = (Locatable)element
-    println "${locatable.getCoordinates().onPage().x}, ${locatable.getCoordinates().onPage().y}"
+    println new ElementPosition(element).toString()
+    driver.navigate().refresh()
+    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    element = driver.findElement(By.xpath("//a[text()='Gallery']"))
+    assert new ElementPosition(element).toString() == "584,297,52,99"
+}
+
+Then(~'I play with shifting for content'){ ->
+    driver.manage().window().maximize()
+    WebElement firstElement = driver.findElement(By.xpath("//p[contains(text(),'To load it randomly')]/a"))
+    firstElement.click()
+    WebElement imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
+    println "---------------------------------"
+    println new ElementPosition(imgElement).toString()
+    WebElement secondElement = driver.findElement(By.xpath("//p[contains(text(),'To specify a differant numbor of pixels')]/a"))
+    secondElement.click()
+    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
+    println "---------------------------------"
+    println new ElementPosition(imgElement).toString()
+    WebElement thirdElement = driver.findElement(By.xpath("//p[contains(text(),'To do both together')]/a"))
+    thirdElement.click()
+    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
+    println "---------------------------------"
+    println new ElementPosition(imgElement).toString()
+
+    WebElement fourthElement = driver.findElement(By.xpath("//p[contains(text(),'For a simple image append')]/a"))
+    fourthElement.click()
+    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
+    println "---------------------------------"
+    println new ElementPosition(imgElement).toString()
 }
 
 Then(~'I click on first link'){->

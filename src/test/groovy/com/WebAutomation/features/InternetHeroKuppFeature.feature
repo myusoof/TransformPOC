@@ -206,3 +206,10 @@ Feature: I have to automate the complete internetherokupp application
     And I validate the page Url "shifting_content"
     Then I click on button with text "Example 1: Menu Element"
     And I play with shifting content
+
+  Scenario: I have to play with Shifting Content1
+    Given I navigate to the test application
+    Then I click on "Shifting Content" link
+    And I validate the page Url "shifting_content"
+    Then I click on button with text "Example 2: An image"
+    And I play with shifting for content
