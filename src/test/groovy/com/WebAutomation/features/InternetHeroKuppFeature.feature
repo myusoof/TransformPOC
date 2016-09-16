@@ -213,3 +213,16 @@ Feature: I have to automate the complete internetherokupp application
     And I validate the page Url "shifting_content"
     Then I click on button with text "Example 2: An image"
     And I play with shifting for content
+
+  Scenario: I have to play with sortable table
+    Given I navigate to the test application
+    Then I click on "Sortable Data Tables" link
+    And I validate the page Url "tables"
+    Then I play with sortable table edit with row with text "Bach"
+    And I validate the page Url "tables#edit"
+
+  Scenario: I have to play with status code
+    Given I navigate to the test application
+    Then I click on "Status Codes" link
+    And I validate the page Url "status_codes"
+    And I got the status code
