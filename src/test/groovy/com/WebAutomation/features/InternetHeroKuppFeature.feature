@@ -226,3 +226,18 @@ Feature: I have to automate the complete internetherokupp application
     Then I click on "Status Codes" link
     And I validate the page Url "status_codes"
     And I got the status code
+
+  Scenario: I have to play with typos
+    Given I navigate to the test application
+    Then I click on "Typos" link
+    And I validate the page Url "typos"
+    And I verify the typos
+
+  Scenario: I have to play with text editor
+    Given I navigate to the test application
+    Then I click on "WYSIWYG Editor" link
+    And I validate the page Url "tinymce"
+    Then I switch to the frame "mce_0_ifr"
+    Then get the content in the frame
+    Then back to default frame
+    Then set the content "<B> Following is the new content </B>" in the frameid "mce_0_ifr"

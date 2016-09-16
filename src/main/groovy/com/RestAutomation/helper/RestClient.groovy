@@ -9,6 +9,7 @@ import groovyx.net.http.RESTClient
 import org.apache.http.HttpEntity
 import org.apache.http.HttpResponse
 import org.apache.http.client.RedirectHandler
+import org.apache.http.params.HttpParams
 
 import javax.ws.rs.core.MediaType
 

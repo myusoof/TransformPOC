@@ -222,12 +222,20 @@ Then(~'I play with sortable table edit with row with text "(.*)"'){text ->
 Then(~'I got the status code'){->
     WebElement status200 = driver.findElement(By.xpath("//a[text()='200']"))
     assert client.get(uri: status200.getAttribute("href")).status == 200
-  /*  def resp= client.get(uri: driver.findElement(By.xpath("//a[text()='301']")).getAttribute("href"))
-    resp.status == 301*/
+    println client.client.params.setParameter("http.protocol.handle-redirects",true)
+    def resp= client.get(uri: driver.findElement(By.xpath("//a[text()='301']")).getAttribute("href"))
+    resp.status == 301
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='404']")).getAttribute("href")).status == 404
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='500']")).getAttribute("href")).status == 500
 }
 
+Then(~'I verify the typos'){->
+     while(driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text.contains("Sometimes you'll see a typo, other times you won,t.")){
+         println driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text
+         driver.navigate().refresh()
+         WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+     }
+}
 
 Then(~'I click on first link'){->
     WebElement firstElement = driver.findElement(By.xpath("//div[@class='example']/a[1]"))
