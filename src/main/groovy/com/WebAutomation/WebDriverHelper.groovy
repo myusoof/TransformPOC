@@ -12,6 +12,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver
 import org.openqa.selenium.interactions.Action
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.opera.OperaDriver
+import org.openqa.selenium.remote.CapabilityType
+import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.safari.SafariDriver
 import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.WebDriverWait
@@ -21,13 +23,18 @@ import org.openqa.selenium.support.ui.WebDriverWait
  */
 public class WebDriverHelper {
 
+
     private static WebDriver driver = null;
     public static String downloadPath = "/home/yusoof/Downloads/"
     public static createWebDriverInstance(String driverType){
         if(driver == null){
             switch (driverType){
                 case "firefox":
-                    driver  = new FirefoxDriver(FirefoxDriverProfile());
+                    BrowserMobHelper.startProxy()
+                    def seleniumProxy =BrowserMobHelper.createWebDriverProxy()
+                    DesiredCapabilities capabilities = new DesiredCapabilities();
+                    capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+                    driver  = new FirefoxDriver(capabilities);
                     break;
                 case "IE":
                     driver = new InternetExplorerDriver();

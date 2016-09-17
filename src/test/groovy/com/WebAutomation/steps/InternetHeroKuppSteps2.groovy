@@ -2,19 +2,30 @@ package com.WebAutomation.steps
 
 import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
+import com.WebAutomation.BrowserMobHelper
+import com.WebAutomation.ExpectedConditionsExt
 import com.WebAutomation.MailVerifier
 import com.WebAutomation.WebDriverHelper
 import com.WebAutomation.WebDriverHelper
+import cucumber.api.DataTable
 import groovy.transform.Field
+import net.lightbody.bmp.BrowserMobProxy
+import net.lightbody.bmp.BrowserMobProxyServer
+import net.lightbody.bmp.client.ClientUtil
+import net.lightbody.bmp.core.har.Har
 import org.apache.http.HttpResponse
+import org.apache.xpath.operations.Bool
 import org.openqa.selenium.Alert
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
+
+import javax.annotation.Nullable
 
 /**
  * Created by yusoof on 5/9/16.
@@ -121,6 +132,19 @@ Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
     WebElement element = driver.findElement(By.xpath("//iframe"))
     //WebDriverHelper.JavaScripExecutor().executeScript("arguments[0].contentWindow.document.body.innerHTML= 'test'",element)
     WebDriverHelper.JavaScripExecutor().executeScript(jQuery)
+}
+Then(~'I verify the javascript error in the page'){->
+
+}
+
+Then(~'I wait till the resource loaded in the page'){DataTable table->
+    WebDriverHelper.WaitInstance(120).until(ExpectedConditionsExt.waitForTheStatusOfResource(table.raw().get(0)[0].toString()))
+
+}
+Then(~'I verify the status of the given resource is "(.*)"'){String status, DataTable table ->
+    def test1 = BrowserMobHelper.getHar().log.entries.findAll {it-> it.request.url == table.raw().get(0)[0].toString()}.first()
+    assert test1.response.status.toString() == status
+
 }
 
 Then(~'I perform the slider action'){ ->

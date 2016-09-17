@@ -2,14 +2,19 @@ package com.WebAutomation.steps
 
 import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
+import com.WebAutomation.BrowserMobHelper
 import com.WebAutomation.DialogHelper
 import com.WebAutomation.ElementPosition
+import com.WebAutomation.ExpectedConditionsExt
 import com.WebAutomation.WebDriverHelper
 import cucumber.api.DataTable
 import groovy.transform.Field
 import groovyx.net.http.RESTClient
 import junit.framework.Assert
+import net.lightbody.bmp.core.har.Har
 import org.apache.http.HttpResponse
+import org.apache.http.client.params.ClientPNames
+import org.apache.http.params.HttpParams
 import org.junit.After
 import org.openqa.selenium.Alert
 import org.openqa.selenium.By
@@ -51,6 +56,7 @@ ExpectedCondition<Boolean> waitForPageToLoad = new ExpectedCondition<Boolean>() 
     }
 }
 Given(~'I navigate to the test application'){ ->
+    BrowserMobHelper.createHAR(driver.getTitle().toString())
     driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
 }
 
@@ -180,7 +186,7 @@ Then(~'I play with shifting content'){ ->
     element = driver.findElement(By.xpath("//a[text()='Gallery']"))
     println new ElementPosition(element).toString()
     driver.navigate().refresh()
-    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
     element = driver.findElement(By.xpath("//a[text()='Gallery']"))
     assert new ElementPosition(element).toString() == "584,297,52,99"
 }
@@ -194,20 +200,20 @@ Then(~'I play with shifting for content'){ ->
     println new ElementPosition(imgElement).toString()
     WebElement secondElement = driver.findElement(By.xpath("//p[contains(text(),'To specify a differant numbor of pixels')]/a"))
     secondElement.click()
-    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
     imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
     println "---------------------------------"
     println new ElementPosition(imgElement).toString()
     WebElement thirdElement = driver.findElement(By.xpath("//p[contains(text(),'To do both together')]/a"))
     thirdElement.click()
-    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
     imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
     println "---------------------------------"
     println new ElementPosition(imgElement).toString()
 
     WebElement fourthElement = driver.findElement(By.xpath("//p[contains(text(),'For a simple image append')]/a"))
     fourthElement.click()
-    WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+    WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
     imgElement = driver.findElement(By.xpath("//img[@class='shift']"))
     println "---------------------------------"
     println new ElementPosition(imgElement).toString()
@@ -222,9 +228,20 @@ Then(~'I play with sortable table edit with row with text "(.*)"'){text ->
 Then(~'I got the status code'){->
     WebElement status200 = driver.findElement(By.xpath("//a[text()='200']"))
     assert client.get(uri: status200.getAttribute("href")).status == 200
-    println client.client.params.setParameter("http.protocol.handle-redirects",true)
+    //HttpParams parama=  client.client.params.setParameter(ClientPNames.HANDLE_REDIRECTS,true)
+    client.turnOnFollowRedirects()
+    def responseStatus = client.get(uri: "https://jigsaw.w3.org/HTTP/300/301.html")
+    println "--------------"
+    println responseStatus.status
+
+    //client.client.params.setParameter(ClientPNames.HANDLE_REDIRECTS,false)
+    client.turnOffFollowRedirects()
+    responseStatus = client.get(uri: "https://jigsaw.w3.org/HTTP/300/301.html")
+    println "--------------"
+    println responseStatus.status
+
     def resp= client.get(uri: driver.findElement(By.xpath("//a[text()='301']")).getAttribute("href"))
-    resp.status == 301
+    println resp.status
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='404']")).getAttribute("href")).status == 404
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='500']")).getAttribute("href")).status == 500
 }
@@ -233,7 +250,7 @@ Then(~'I verify the typos'){->
      while(driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text.contains("Sometimes you'll see a typo, other times you won,t.")){
          println driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text
          driver.navigate().refresh()
-         WebDriverHelper.WaitInstance(10).until(waitForPageToLoad)
+         WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
      }
 }
 
@@ -282,5 +299,5 @@ Then(~'I download the file'){->
 }
 
 After(){
-   //driver.close()
+    BrowserMobHelper.closeProxy()
 }

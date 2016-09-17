@@ -241,3 +241,18 @@ Feature: I have to automate the complete internetherokupp application
     Then get the content in the frame
     Then back to default frame
     Then set the content "<B> Following is the new content </B>" in the frameid "mce_0_ifr"
+
+  Scenario: I have to play with javascript error in the page
+    Given I navigate to the test application
+    Then I click on "JavaScript onload event error" link
+    And I validate the page Url "javascript_error"
+    And I verify the javascript error in the page
+
+  Scenario: I have to play with resource being slowness
+    Given I navigate to the test application
+    Then I click on "Slow Resources" link
+    And I validate the page Url "slow"
+    And I wait till the resource loaded in the page
+      |https://the-internet.herokuapp.com/slow_external|
+    Then I verify the status of the given resource is "503"
+    |https://the-internet.herokuapp.com/slow_external|

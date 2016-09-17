@@ -16,6 +16,8 @@ ext
     masterThought =  "net.masterthought:cucumber-reporting:0.0.21"
     totalLazy = [ group:'com.googlecode.totallylazy', name:'totallylazy', version:'991']
     cucumberJunit = "info.cukes:cucumber-junit:1.2.4"
+    browsermob =[ group: 'net.lightbody.bmp', name: 'browsermob-core', version: '2.1.2']
+
 
     //appium
     //compile fileTree(dir: 'lib', include: ['*.jar'])
