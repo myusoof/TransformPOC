@@ -63,8 +63,8 @@ Given(~'I navigate to the test application'){ ->
 
 Then(~'I click on "(.*)" link'){ linkName ->
     Thread.sleep(2000)
-    driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/download_secure")
-    //driver.findElement(By.xpath("//a[text()='$linkName']")).click()
+    //driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/download_secure")
+    driver.findElement(By.xpath("//a[text()='$linkName']")).click()
 }
 Then(~'I click on Basic Auth link'){ ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()

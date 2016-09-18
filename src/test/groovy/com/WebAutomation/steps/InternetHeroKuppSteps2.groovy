@@ -157,6 +157,11 @@ Then(~'I verify the status of the given resource is "(.*)"'){String status, Data
     assert test1.response.status.toString() == status
 
 }
+Then(~'I verify the response data from the resource'){ DataTable table ->
+    def test1 = BrowserMobHelper.getHar().log.entries.findAll {it-> it.request.url == table.raw().get(0)[0].toString()}.first()
+    assert test1.response
+
+}
 
 Then(~'I perform the slider action'){ ->
     WebElement element = driver.findElement(By.xpath("//*[@id='content']/div/div/input"))

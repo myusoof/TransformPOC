@@ -261,3 +261,12 @@ Feature: I have to automate the complete internetherokupp application
     Given I navigate to the test application
     Then I click on "Secure File Download" link
     And I download the secure file
+
+
+  Scenario: I have to play with geolocation
+    Given I navigate to the test application
+    Then I click on "Geolocation" link
+    And I wait till the resource loaded in the page
+    |https://the-internet.herokuapp.com/geolocation|
+    Then I verify the response data from the resource
+      |https://the-internet.herokuapp.com/geolocation|
