@@ -6,26 +6,15 @@ import com.WebAutomation.BrowserMobHelper
 import com.WebAutomation.ExpectedConditionsExt
 import com.WebAutomation.MailVerifier
 import com.WebAutomation.WebDriverHelper
-import com.WebAutomation.WebDriverHelper
 import cucumber.api.DataTable
 import groovy.transform.Field
-import net.lightbody.bmp.BrowserMobProxy
-import net.lightbody.bmp.BrowserMobProxyServer
-import net.lightbody.bmp.client.ClientUtil
-import net.lightbody.bmp.core.har.Har
+import net.jsourcerer.webdriver.jserrorcollector.JavaScriptError
 import org.apache.http.HttpResponse
-import org.apache.xpath.operations.Bool
-import org.openqa.selenium.Alert
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.ExpectedCondition
+import org.apache.http.client.CookieStore
+import org.apache.http.impl.client.BasicCookieStore
+import org.apache.http.impl.cookie.BasicClientCookie
+import org.openqa.selenium.*
 import org.openqa.selenium.support.ui.ExpectedConditions
-import org.openqa.selenium.support.ui.WebDriverWait
-
-import javax.annotation.Nullable
 
 /**
  * Created by yusoof on 5/9/16.
@@ -134,7 +123,29 @@ Then(~'set the content "(.*)" in the frameid "(.*)"'){ content, frameid->
     WebDriverHelper.JavaScripExecutor().executeScript(jQuery)
 }
 Then(~'I verify the javascript error in the page'){->
+    final List<JavaScriptError> jsErrors = JavaScriptError.readErrors(driver);
+    jsErrors.each {
+        println "${it.sourceName}, ${it.errorMessage}"
+    }
+    assert jsErrors.isEmpty()
+}
+Then(~'I download the secure file'){->
+    Set<Cookie> cookies =  driver.manage().cookies
+    CookieStore cookieStore = new BasicCookieStore()
+    cookies.each { cookie ->
+        BasicClientCookie clientCookie = new BasicClientCookie(cookie.getName(), cookie.getValue())
+        clientCookie.setDomain(cookie.domain)
+        clientCookie.setExpiryDate(cookie.expiry)
+        clientCookie.setPath(cookie.path)
+        clientCookie.setSecure(cookie.isSecure());
+        cookieStore.addCookie(clientCookie)
+    }
 
+    client.setHeaders(["Cookie": cookieStore])
+    def client1 = client
+    def response = client.get(uri: "https://the-internet.herokuapp.com/download_secure/some-file.txt")
+    assert  response.status == 200
+    assert response.responseData.buf.size() > 0
 }
 
 Then(~'I wait till the resource loaded in the page'){DataTable table->

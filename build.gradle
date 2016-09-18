@@ -44,6 +44,8 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
     compile group: 'javax.mail', name: 'mail', version: '1.4.1'
     testCompile groovy
+    compile files('libs/JSErrorCollector-0.6.jar')
+
     //compile 'io.appium:java-client:3.3.0'
     //compile fileTree(dir: 'lib', include: ['*.jar'])
 

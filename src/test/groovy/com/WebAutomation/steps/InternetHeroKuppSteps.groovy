@@ -11,6 +11,7 @@ import cucumber.api.DataTable
 import groovy.transform.Field
 import groovyx.net.http.RESTClient
 import junit.framework.Assert
+import net.jsourcerer.webdriver.jserrorcollector.JavaScriptError
 import net.lightbody.bmp.core.har.Har
 import org.apache.http.HttpResponse
 import org.apache.http.client.params.ClientPNames
@@ -62,11 +63,12 @@ Given(~'I navigate to the test application'){ ->
 
 Then(~'I click on "(.*)" link'){ linkName ->
     Thread.sleep(2000)
-    driver.findElement(By.xpath("//a[text()='$linkName']")).click()
+    driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/download_secure")
+    //driver.findElement(By.xpath("//a[text()='$linkName']")).click()
 }
 Then(~'I click on Basic Auth link'){ ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()
-    driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth")
+    driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth").responseData.status
     //new Thread(new DialogHelper()).start()
 //    Alert alert = driver.switchTo().alert();
 //    alert.authenticateUsing(new UserAndPassword("admin","admin"))

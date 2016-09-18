@@ -256,3 +256,8 @@ Feature: I have to automate the complete internetherokupp application
       |https://the-internet.herokuapp.com/slow_external|
     Then I verify the status of the given resource is "503"
     |https://the-internet.herokuapp.com/slow_external|
+
+  Scenario: I have to play with secure download
+    Given I navigate to the test application
+    Then I click on "Secure File Download" link
+    And I download the secure file

@@ -1,7 +1,9 @@
 package com.WebAutomation
 
+import net.jsourcerer.webdriver.jserrorcollector.JavaScriptError
 import org.codehaus.plexus.configuration.processor.ConfigurationResourceHandler
 import org.openqa.selenium.By
+import org.openqa.selenium.Capabilities
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
@@ -30,10 +32,13 @@ public class WebDriverHelper {
         if(driver == null){
             switch (driverType){
                 case "firefox":
+                    FirefoxProfile profile = new FirefoxProfile()
+                    JavaScriptError.addExtension(profile);
                     BrowserMobHelper.startProxy()
                     def seleniumProxy =BrowserMobHelper.createWebDriverProxy()
                     DesiredCapabilities capabilities = new DesiredCapabilities();
                     capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+                    capabilities.setCapability(FirefoxDriver.PROFILE, profile)
                     driver  = new FirefoxDriver(capabilities);
                     break;
                 case "IE":
