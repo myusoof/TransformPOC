@@ -133,7 +133,7 @@ Then(~'I verify the javascript error in the page'){->
 }
 Then(~'I download the secure file'){->
     String downloadedPath = new FileDownloaderHelper(driver).downloadFile(driver.findElement(By.xpath("//*[@id='content']/div/a[1]")))
-    downloadedPath
+    println downloadedPath
 }
 
 Then(~'I wait till the resource loaded in the page'){DataTable table->

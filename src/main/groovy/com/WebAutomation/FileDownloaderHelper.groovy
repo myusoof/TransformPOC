@@ -76,34 +76,34 @@ public class FileDownloaderHelper {
     private String downloader(WebElement element, String attribute){
         String fileToDownloadLocation = element.getAttribute(attribute)
 
-        def fileName = fileToDownloadLocation =~ /(.*)\/(.*)/
+        def fileName = fileToDownloadLocation =~ /(.*\\/)?(.*)/
 
         if(fileToDownloadLocation.trim().equals(""))
-            throw new NullPointerException("The element you have specified does not link to anything!");
+            throw new NullPointerException("The element you have specified does not link to anything!")
 
         URL fileToDownload = new URL(fileToDownloadLocation)
 //        File downloadedFile = new File(this.localDownloadPath + fileName[0][2]);
-        File downloadedFile = new File(ConfigurationHelper.localDownloadPath + fileName[0][2]);
-        if (downloadedFile.canWrite() == false) downloadedFile.setWritable(true);
+        File downloadedFile = new File(ConfigurationHelper.localDownloadPath + fileName[0][2])
+        if (downloadedFile.canWrite() == false) downloadedFile.setWritable(true)
 
         HttpClient client = new DefaultHttpClient()
         BasicHttpContext localContext = new BasicHttpContext()
 
         if(this.mimicWebDriverCookieState){
-            localContext.setAttribute(ClientContext.COOKIE_STORE, mimicCookieState(this.driver.manage().getCookies()));
+            localContext.setAttribute(ClientContext.COOKIE_STORE, mimicCookieState(this.driver.manage().getCookies()))
         }
         HttpRequestBase requestMethod = this.httpRequestMethod.getRequestMethod()
         requestMethod.setURI(fileToDownload.toURI())
-        HttpParams httpRequestParameters = requestMethod.getParams();
-        httpRequestParameters.setParameter(ClientPNames.HANDLE_REDIRECTS, this.followRedirects);
-        requestMethod.setParams(httpRequestParameters);
+        HttpParams httpRequestParameters = requestMethod.getParams()
+        httpRequestParameters.setParameter(ClientPNames.HANDLE_REDIRECTS, this.followRedirects)
+        requestMethod.setParams(httpRequestParameters)
 
         HttpResponse response = client.execute(requestMethod, localContext)
         this.httpStatusOfLastDownloadAttempt = response.getStatusLine().getStatusCode()
-        FileUtils.copyInputStreamToFile(response.getEntity().getContent(), downloadedFile);
-        response.getEntity().getContent().close();
+        FileUtils.copyInputStreamToFile(response.getEntity().getContent(), downloadedFile)
+        response.getEntity().getContent().close()
 
-        String downloadedFileAbsolutePath = downloadedFile.getAbsolutePath();
+        String downloadedFileAbsolutePath = downloadedFile.getAbsolutePath()
         assert new File(downloadedFileAbsolutePath).exists()
         return downloadedFileAbsolutePath
     }
