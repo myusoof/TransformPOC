@@ -7,6 +7,7 @@ import groovyx.net.http.HttpResponseDecorator
 import groovyx.net.http.ParserRegistry
 import groovyx.net.http.RESTClient
 import org.apache.http.HttpEntity
+import org.apache.http.HttpRequestInterceptor
 import org.apache.http.HttpResponse
 import org.apache.http.client.RedirectHandler
 import org.apache.http.params.HttpParams
@@ -51,6 +52,8 @@ public class RestClient extends  RESTClient {
             resp.setData(parseResponse(resp, ParserRegistry.getContentType(resp)))
             resp
         }
+
+
 
         standardRedirectHandler = client.redirectHandler
     }

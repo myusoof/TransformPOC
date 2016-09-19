@@ -26,6 +26,10 @@ public class ConfigurationHelper {
         return ConfigurationHelper.getProperties().get("webappliationbaseurl")
     }
 
+    public static String getLocalDownloadPath(){
+        return ConfigurationHelper.getProperties().get("localDownloadPath")
+    }
+
     public static String getEmailAddress(){
         return ConfigurationHelper.getProperties().get("emailAddress")
     }

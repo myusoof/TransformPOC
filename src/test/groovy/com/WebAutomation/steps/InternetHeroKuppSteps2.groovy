@@ -4,10 +4,12 @@ import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
 import com.WebAutomation.BrowserMobHelper
 import com.WebAutomation.ExpectedConditionsExt
+import com.WebAutomation.FileDownloaderHelper
 import com.WebAutomation.MailVerifier
 import com.WebAutomation.WebDriverHelper
 import cucumber.api.DataTable
 import groovy.transform.Field
+import groovyx.net.http.RESTClient
 import net.jsourcerer.webdriver.jserrorcollector.JavaScriptError
 import org.apache.http.HttpResponse
 import org.apache.http.client.CookieStore
@@ -130,22 +132,8 @@ Then(~'I verify the javascript error in the page'){->
     assert jsErrors.isEmpty()
 }
 Then(~'I download the secure file'){->
-    Set<Cookie> cookies =  driver.manage().cookies
-    CookieStore cookieStore = new BasicCookieStore()
-    cookies.each { cookie ->
-        BasicClientCookie clientCookie = new BasicClientCookie(cookie.getName(), cookie.getValue())
-        clientCookie.setDomain(cookie.domain)
-        clientCookie.setExpiryDate(cookie.expiry)
-        clientCookie.setPath(cookie.path)
-        clientCookie.setSecure(cookie.isSecure());
-        cookieStore.addCookie(clientCookie)
-    }
-
-    client.setHeaders(["Cookie": cookieStore])
-    def client1 = client
-    def response = client.get(uri: "https://the-internet.herokuapp.com/download_secure/some-file.txt")
-    assert  response.status == 200
-    assert response.responseData.buf.size() > 0
+    String downloadedPath = new FileDownloaderHelper(driver).downloadFile(driver.findElement(By.xpath("//*[@id='content']/div/a[1]")))
+    downloadedPath
 }
 
 Then(~'I wait till the resource loaded in the page'){DataTable table->
@@ -160,7 +148,6 @@ Then(~'I verify the status of the given resource is "(.*)"'){String status, Data
 Then(~'I verify the response data from the resource'){ DataTable table ->
     def test1 = BrowserMobHelper.getHar().log.entries.findAll {it-> it.request.url == table.raw().get(0)[0].toString()}.first()
     assert test1.response
-
 }
 
 Then(~'I perform the slider action'){ ->
