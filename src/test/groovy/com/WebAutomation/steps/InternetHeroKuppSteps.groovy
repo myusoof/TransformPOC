@@ -2,39 +2,22 @@ package com.WebAutomation.steps
 
 import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
-import com.WebAutomation.BrowserMobHelper
-import com.WebAutomation.DialogHelper
-import com.WebAutomation.ElementPosition
-import com.WebAutomation.ExpectedConditionsExt
-import com.WebAutomation.WebDriverHelper
-import cucumber.api.DataTable
+import com.WebAutomation.*
+import com.WebAutomation.pages.InternetHomePage
 import groovy.transform.Field
-import groovyx.net.http.RESTClient
 import junit.framework.Assert
-import net.jsourcerer.webdriver.jserrorcollector.JavaScriptError
-import net.lightbody.bmp.core.har.Har
 import org.apache.http.HttpResponse
-import org.apache.http.client.params.ClientPNames
-import org.apache.http.params.HttpParams
-import org.junit.After
-import org.openqa.selenium.Alert
-import org.openqa.selenium.By
-import org.openqa.selenium.JavascriptExecutor
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.*
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.internal.Locatable
-import org.openqa.selenium.security.UserAndPassword
+import org.openqa.selenium.support.pagefactory.ElementLocator
 import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.Select
-import org.openqa.selenium.support.ui.WebDriverWait
 
-import javax.annotation.Nullable
-import javax.swing.Action
-import java.awt.Robot
+import java.awt.*
 import java.awt.event.InputEvent
+import java.util.List
 
 
 /**
@@ -60,11 +43,20 @@ Given(~'I navigate to the test application'){ ->
     BrowserMobHelper.createHAR(driver.getTitle().toString())
     driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
 }
+Given(~'I have to launch test application with (.*) size'){ browserSize ->
+    BrowserSize size = BrowserSize.valueOf(browserSize)
+    driver.manage().window().setSize(new Dimension(size.width, size.height))
+    driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
+}
 
-Then(~'I click on "(.*)" link'){ linkName ->
+Then(~'I click on "(.*)" link$'){ linkName ->
     Thread.sleep(2000)
     //driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/download_secure")
     driver.findElement(By.xpath("//a[text()='$linkName']")).click()
+}
+Then(~'I click on "(.*)" link with responsive'){ linkName ->
+    Thread.sleep(2000)
+    new InternetHomePage(driver).redrectLink().click()
 }
 Then(~'I click on Basic Auth link'){ ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()
