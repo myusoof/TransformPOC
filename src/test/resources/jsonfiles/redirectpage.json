@@ -1,0 +1,11 @@
+{
+  "Desktop":{
+    "here": "xpath://*[@id='redirect']"
+  },
+  "Mobile":{
+    "here": "xpath://*[@id='redirect']"
+  },
+  "Tablet":{
+    "here": "xpath://*[@id='redirect']"
+  }
+}

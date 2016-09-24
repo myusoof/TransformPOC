@@ -4,6 +4,7 @@ import com.RestAutomation.helper.ConfigurationHelper
 import com.RestAutomation.helper.RestClient
 import com.WebAutomation.*
 import com.WebAutomation.pages.InternetHomePage
+import com.WebAutomation.pages.RedirectorPage
 import groovy.transform.Field
 import junit.framework.Assert
 import org.apache.http.HttpResponse
@@ -68,6 +69,11 @@ Then(~'I click on "(.*)" link$') { linkName ->
 Then(~'I click on "(.*)" link with responsive') { linkName ->
     Thread.sleep(2000)
     new InternetHomePage(driver,globalBrowserSize).redirectLink().click()
+}
+
+Then(~'I click on here link with responsive') { ->
+    Thread.sleep(2000)
+    new RedirectorPage(driver,globalBrowserSize).hereLink().click()
 }
 Then(~'I click on Basic Auth link') { ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()

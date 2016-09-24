@@ -18,7 +18,7 @@ public class InternetHomePage {
     public InternetHomePage(WebDriver driver, String browserSize){
         _driver =driver
         this.browserSize = browserSize
-        if(interJsonElementObject ==null){
+        if(interJsonElementObject == null){
             interJsonElementObject = ElementFinder.getJsonObject("internetpage.json")
         }
     }
