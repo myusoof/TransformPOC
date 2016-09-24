@@ -1,11 +1,11 @@
 {
   "Desktop":{
-    "redirectlink": "//a[text()='Redirect Link']"
+    "redirectlink": "xpath://a[text()='Redirect Link']"
   },
   "Mobile":{
-    "redirectlink": "//a[text()='Redirect Link']"
+    "redirectlink": "xpath://a[text()='Redirect Link']"
   },
   "Tablet":{
-    "redirectlink": "//a[text()='Redirect Link']"
+    "redirectlink": "xpath://a[text()='Redirect Link']"
   }
 }

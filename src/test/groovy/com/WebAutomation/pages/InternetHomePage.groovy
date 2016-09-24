@@ -1,6 +1,7 @@
 package com.WebAutomation.pages
 
 import com.WebAutomation.ElementFinder
+import com.WebAutomation.WebDriverHelper
 import groovy.json.JsonSlurper
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
@@ -22,10 +23,12 @@ public class InternetHomePage {
         }
     }
 
-    public WebElement redrectLink(){
+    public WebElement redirectLink(){
         //interJsonElementObject.find {it -> it == browserSize}.redirectLink
         //interJsonElementObject.find{it -> it.key == "Desktop"}
-        return _driver.findElement(By.xpath(interJsonElementObject."${browserSize}".redirectlink))
+        WebDriverHelper.ByWhatExt(interJsonElementObject."${browserSize}".redirectlink)
+       // return _driver.findElement(By.xpath(interJsonElementObject."${browserSize}".redirectlink))
+        return _driver.findElement(WebDriverHelper.ByWhatExt(interJsonElementObject."${browserSize}".redirectlink))
     }
 
 }

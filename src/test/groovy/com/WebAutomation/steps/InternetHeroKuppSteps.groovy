@@ -67,7 +67,7 @@ Then(~'I click on "(.*)" link$') { linkName ->
 }
 Then(~'I click on "(.*)" link with responsive') { linkName ->
     Thread.sleep(2000)
-    new InternetHomePage(driver,globalBrowserSize).redrectLink().click()
+    new InternetHomePage(driver,globalBrowserSize).redirectLink().click()
 }
 Then(~'I click on Basic Auth link') { ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()

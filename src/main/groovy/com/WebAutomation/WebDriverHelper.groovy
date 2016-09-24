@@ -20,6 +20,8 @@ import org.openqa.selenium.safari.SafariDriver
 import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.WebDriverWait
 
+import java.util.regex.Pattern
+
 /**
  * Created by yusoof on 31/8/16.
  */
@@ -96,6 +98,32 @@ public class WebDriverHelper {
             default:
                 return By.xpath(elementLocator)
         }
+    }
+    public static By ByWhatExt( String elementLocator){
+        def matcher = elementLocator =~ "(.*):(.*)"
+        if(matcher.matches()){
+            switch (matcher[0][1].toString().toLowerCase()){
+                case "xpath":
+                    return By.xpath(matcher[0][2])
+                case "classname":
+                    return By.className(matcher[0][2])
+                case "cssSelector":
+                    return By.cssSelector(matcher[0][2])
+                case "id":
+                    return By.id(matcher[0][2])
+                case "linkText":
+                    return By.linkText(matcher[0][2])
+                case "name":
+                    return By.name(matcher[0][2])
+                case "partialLinkText":
+                    return By.partialLinkText(matcher[0][2])
+                case "tagName":
+                    return By.tagName(matcher[0][2])
+                default:
+                    return By.xpath(matcher[0][2])
+        }
+        }
+        return null
     }
 
     public static void waitForJQuery() {
