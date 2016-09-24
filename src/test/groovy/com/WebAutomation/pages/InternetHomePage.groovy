@@ -11,15 +11,21 @@ import org.openqa.selenium.WebElement
  */
 public class InternetHomePage {
 
-    Object interJsonElementObject
+    static Object interJsonElementObject
     WebDriver _driver
-    public InternetHomePage(WebDriver driver){
+    String browserSize
+    public InternetHomePage(WebDriver driver, String browserSize){
         _driver =driver
-        interJsonElementObject = ElementFinder.loadJsonFile(new File(this.getClass().getResource("/jsonfiles/internetpage.json").path))
+        this.browserSize = browserSize
+        if(interJsonElementObject ==null){
+            interJsonElementObject = ElementFinder.getJsonObject("internetpage.json")
+        }
     }
 
     public WebElement redrectLink(){
-        return _driver.findElement(By.xpath(interJsonElementObject.Desktop.redirectlink))
+        //interJsonElementObject.find {it -> it == browserSize}.redirectLink
+        //interJsonElementObject.find{it -> it.key == "Desktop"}
+        return _driver.findElement(By.xpath(interJsonElementObject."${browserSize}".redirectlink))
     }
 
 }

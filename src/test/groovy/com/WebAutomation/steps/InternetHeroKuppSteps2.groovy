@@ -24,9 +24,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions
 this.metaClass.mixin(cucumber.api.groovy.Hooks)
 this.metaClass.mixin(cucumber.api.groovy.EN)
 
+/*
 @Field
 WebDriver driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
-
+*/
+WebDriver driver
 @Field
 RestClient client = RestClient.getRestInstance()
 

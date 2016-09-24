@@ -10,7 +10,6 @@ import org.apache.http.HttpResponse
 import org.openqa.selenium.*
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.internal.Locatable
-import org.openqa.selenium.support.pagefactory.ElementLocator
 import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.Select
@@ -19,15 +18,16 @@ import java.awt.*
 import java.awt.event.InputEvent
 import java.util.List
 
-
 /**
  * Created by yusoof on 3/9/16.
  */
 this.metaClass.mixin(cucumber.api.groovy.Hooks)
 this.metaClass.mixin(cucumber.api.groovy.EN)
 
+
 @Field
-WebDriver driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
+WebDriver driver
+//= WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
 
 @Field
 RestClient client = RestClient.getRestInstance()
@@ -36,29 +36,40 @@ Robot robot = new Robot()
 ExpectedCondition<Boolean> waitForPageToLoad = new ExpectedCondition<Boolean>() {
     @Override
     Boolean apply(WebDriver d) {
-        return ((JavascriptExecutor)d).executeScript("return document.readyState").equals("complete")
+        return ((JavascriptExecutor) d).executeScript("return document.readyState").equals("complete")
     }
 }
-Given(~'I navigate to the test application'){ ->
+
+World (){
+    new ElementFinder()
+}
+Before() {
+    loadJsonFiles()
+    globalBrowserSize
+    driver = WebDriverHelper.createWebDriverInstance(ConfigurationHelper.driverType)
+}
+
+Given(~'I navigate to the test application') { ->
     BrowserMobHelper.createHAR(driver.getTitle().toString())
     driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
 }
-Given(~'I have to launch test application with (.*) size'){ browserSize ->
+
+Given(~'I have to launch test application with (.*) size') { browserSize ->
+    globalBrowserSize = browserSize
     BrowserSize size = BrowserSize.valueOf(browserSize)
     driver.manage().window().setSize(new Dimension(size.width, size.height))
     driver.navigate().to(ConfigurationHelper.webAppliationBaseUrl)
 }
 
-Then(~'I click on "(.*)" link$'){ linkName ->
+Then(~'I click on "(.*)" link$') { linkName ->
     Thread.sleep(2000)
-    //driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/download_secure")
     driver.findElement(By.xpath("//a[text()='$linkName']")).click()
 }
-Then(~'I click on "(.*)" link with responsive'){ linkName ->
+Then(~'I click on "(.*)" link with responsive') { linkName ->
     Thread.sleep(2000)
-    new InternetHomePage(driver).redrectLink().click()
+    new InternetHomePage(driver,globalBrowserSize).redrectLink().click()
 }
-Then(~'I click on Basic Auth link'){ ->
+Then(~'I click on Basic Auth link') { ->
     //WebElement element = driver.findElement(By.xpath("//a[text()='Basic Auth']")).click()
     driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth").responseData.status
     //new Thread(new DialogHelper()).start()
@@ -66,14 +77,14 @@ Then(~'I click on Basic Auth link'){ ->
 //    alert.authenticateUsing(new UserAndPassword("admin","admin"))
 //    alert.accept()
 }
-And(~'I validate the page Url "(.*)"'){ url->
+And(~'I validate the page Url "(.*)"') { url ->
     assert driver.getCurrentUrl().contains(url)
 }
-And(~'I validate the content in the page'){table->
+And(~'I validate the content in the page') { table ->
     driver.getPageSource().contains(table.raw().get(0))
 }
 
-And(~'I validate the images are loaded correctly'){->
+And(~'I validate the images are loaded correctly') { ->
     List<WebElement> elements = driver.findElements(By.xpath("//div[@class='example']/img"))
     elements.each { it ->
         String imgPath = it.getAttribute("src")
@@ -81,19 +92,21 @@ And(~'I validate the images are loaded correctly'){->
     }
 }
 
-Then(~'I get validate the status of the checkbox'){->
-    List<WebElement> elements = driver.findElements(WebDriverHelper.ByWhat("xpath","//.[@id='checkboxes']/input"))
+Then(~'I get validate the status of the checkbox') { ->
+    List<WebElement> elements = driver.findElements(WebDriverHelper.ByWhat("xpath", "//.[@id='checkboxes']/input"))
     List<WebElement> elementsWithJqery = WebDriverHelper.FindElementsWithJQuery("form input:not(:checked)")
-    elementsWithJqery.each {it->if(!it.isSelected()){
-        it.click()
-    } }
+    elementsWithJqery.each { it ->
+        if (!it.isSelected()) {
+            it.click()
+        }
+    }
 //    elements.each{ element ->
 //          if(!element.isSelected()){
 //              element.click()
 //          }
     //}
 }
-Then(~'I validate the context menu'){->
+Then(~'I validate the context menu') { ->
     WebElement contextBox = driver.findElement(By.xpath("//*[@id='hot-spot']"))
     Actions actions = new Actions(driver)
     actions.contextClick(contextBox)
@@ -110,43 +123,43 @@ Then(~'I validate the context menu'){->
     alert.accept()
 }
 List<String> elementText = new ArrayList<String>();
-Then(~'I get all the menus which appears'){->
-    try{
+Then(~'I get all the menus which appears') { ->
+    try {
         5.times {
-            if(driver.findElements(By.xpath("//li")).size()==5){
+            if (driver.findElements(By.xpath("//li")).size() == 5) {
                 throw new Exception()
-            }else{
+            } else {
                 driver.navigate().refresh()
             }
         }
-    }catch (Exception e){
+    } catch (Exception e) {
         println "element found"
     }
     driver.findElement(By.xpath("//li/a[text()=='Home']")).click()
 }
 
-Then(~'I perform drag and drop operation'){->
+Then(~'I perform drag and drop operation') { ->
     WebElement sourceElement = driver.findElement(By.xpath("//*[@id='column-a']"))
     WebElement targetElement = driver.findElement(By.xpath("//*[@id='column-b']"))
     Actions actions = new Actions(driver)
     actions.moveToElement(sourceElement).clickAndHold().build().perform()
-    Locatable locate = (Locatable)targetElement
+    Locatable locate = (Locatable) targetElement
 
     def getXPositionOfLocatable = locate.coordinates.onPage().x
     def getYPositionOfLocatable = locate.coordinates.onPage().y
 
     def getLeftPositionOfWindow = driver.manage().window().getPosition().x
     def getTopPositionOfWindow = driver.manage().window().getPosition().y
-    def xPosition = getLeftPositionOfWindow+getXPositionOfLocatable
-    def yPosition = getYPositionOfLocatable+getTopPositionOfWindow
-    robot.mouseMove(xPosition,yPosition+80 )
+    def xPosition = getLeftPositionOfWindow + getXPositionOfLocatable
+    def yPosition = getYPositionOfLocatable + getTopPositionOfWindow
+    robot.mouseMove(xPosition, yPosition + 80)
     Thread.sleep(2000)
     robot.mousePress(InputEvent.BUTTON1_MASK)
     robot.mouseRelease(InputEvent.BUTTON1_MASK)
     assert targetElement.text, "A"
 }
 
-Then(~'I have to select the option'){->
+Then(~'I have to select the option') { ->
     WebElement element = driver.findElement(By.xpath("//*[@id='dropdown']"))
     Select select = new Select(element)
     select.selectByIndex(2)
@@ -154,16 +167,16 @@ Then(~'I have to select the option'){->
     select.selectByVisibleText("Option 2")
     println select.isMultiple()
 }
-Then(~'I have to play with dynamic controls'){->
+Then(~'I have to play with dynamic controls') { ->
     WebElement element = driver.findElement(By.xpath("//button[text()='Remove']"))
     element.click()
-    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element,"Add"))
-     element = driver.findElement(By.xpath("//button[text()='Add']"))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element, "Add"))
+    element = driver.findElement(By.xpath("//button[text()='Add']"))
     element.click()
-    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element,"Remove"))
+    WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.textToBePresentInElement(element, "Remove"))
 
 }
-Then(~'I have to play with wait for element'){->
+Then(~'I have to play with wait for element') { ->
     WebElement element = driver.findElement(By.xpath("//button[text()='Remove']"))
     element.click()
     WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(".//input[@id='checkbox']")))
@@ -171,7 +184,7 @@ Then(~'I have to play with wait for element'){->
     element.click()
 }
 
-Then(~'I play with shifting content'){ ->
+Then(~'I play with shifting content') { ->
 
     driver.manage().window().maximize()
     WebElement element = driver.findElement(By.xpath("//a[text()='Gallery']"))
@@ -185,7 +198,7 @@ Then(~'I play with shifting content'){ ->
     assert new ElementPosition(element).toString() == "584,297,52,99"
 }
 
-Then(~'I play with shifting for content'){ ->
+Then(~'I play with shifting for content') { ->
     driver.manage().window().maximize()
     WebElement firstElement = driver.findElement(By.xpath("//p[contains(text(),'To load it randomly')]/a"))
     firstElement.click()
@@ -214,12 +227,12 @@ Then(~'I play with shifting for content'){ ->
 }
 
 
-Then(~'I play with sortable table edit with row with text "(.*)"'){text ->
+Then(~'I play with sortable table edit with row with text "(.*)"') { text ->
     WebElement editElement = driver.findElement(By.xpath("//*[@id='table1']//*[text()='${text}']/parent::*//a[text()='edit']"))
     editElement.click()
 }
 
-Then(~'I got the status code'){->
+Then(~'I got the status code') { ->
     WebElement status200 = driver.findElement(By.xpath("//a[text()='200']"))
     assert client.get(uri: status200.getAttribute("href")).status == 200
     //HttpParams parama=  client.client.params.setParameter(ClientPNames.HANDLE_REDIRECTS,true)
@@ -234,25 +247,25 @@ Then(~'I got the status code'){->
     println "--------------"
     println responseStatus.status
 
-    def resp= client.get(uri: driver.findElement(By.xpath("//a[text()='301']")).getAttribute("href"))
+    def resp = client.get(uri: driver.findElement(By.xpath("//a[text()='301']")).getAttribute("href"))
     println resp.status
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='404']")).getAttribute("href")).status == 404
     assert client.get(uri: driver.findElement(By.xpath("//a[text()='500']")).getAttribute("href")).status == 500
 }
 
-Then(~'I verify the typos'){->
-     while(driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text.contains("Sometimes you'll see a typo, other times you won,t.")){
-         println driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text
-         driver.navigate().refresh()
-         WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
-     }
+Then(~'I verify the typos') { ->
+    while (driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text.contains("Sometimes you'll see a typo, other times you won,t.")) {
+        println driver.findElement(By.xpath("//*[@id='content']/div/p[2]")).text
+        driver.navigate().refresh()
+        WebDriverHelper.WaitInstance(10).until(ExpectedConditionsExt.waitForPageToLoad())
+    }
 }
 
-Then(~'I click on first link'){->
+Then(~'I click on first link') { ->
     WebElement firstElement = driver.findElement(By.xpath("//div[@class='example']/a[1]"))
     firstElement.click()
 }
-Then(~'Click on start button in the first page'){->
+Then(~'Click on start button in the first page') { ->
     WebElement element = driver.findElement(By.xpath("//*[@id='start']/button"))
     element.click()
     WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
@@ -260,11 +273,11 @@ Then(~'Click on start button in the first page'){->
     driver.navigate().back()
 }
 
-Then(~'I click on second link'){->
+Then(~'I click on second link') { ->
     WebElement firstElement = driver.findElement(By.xpath("//div[@class='example']/a[2]"))
     firstElement.click()
 }
-Then(~'Click on start button in the second page'){->
+Then(~'Click on start button in the second page') { ->
     WebElement element = driver.findElement(By.xpath("//*[@id='start']/button"))
     element.click()
     WebDriverHelper.WaitInstance(15000).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@id='loading']")))
@@ -272,11 +285,11 @@ Then(~'Click on start button in the second page'){->
     driver.navigate().back()
 }
 
-Then(~'I get the position of exit intent element'){->
+Then(~'I get the position of exit intent element') { ->
     WebElement element = driver.findElement(By.xpath("//div[@class='example']"))
-    Locatable locate = (Locatable)element
+    Locatable locate = (Locatable) element
     int yPosition = locate.coordinates.onPage().y
-    robot.mouseMove(0,yPosition-30)
+    robot.mouseMove(0, yPosition - 30)
     Thread.sleep(5000)
     driver.switchTo().activeElement()
     WebElement footerElement = driver.findElement(By.xpath("//*[@class='modal-footer']"))
@@ -284,7 +297,7 @@ Then(~'I get the position of exit intent element'){->
     footerElement.click()
 }
 
-Then(~'I download the file'){->
+Then(~'I download the file') { ->
     List<WebElement> element = driver.findElements(By.xpath("//div[@class='example']//a"))
     element.each {
         HttpResponse response = client.get(uri: it.getAttribute("href"))
@@ -292,6 +305,7 @@ Then(~'I download the file'){->
     }
 }
 
-After(){
+After() {
+    driver.quit()
     BrowserMobHelper.closeProxy()
 }

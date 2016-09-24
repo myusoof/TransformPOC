@@ -6,6 +6,6 @@ Feature: I have to launch the application for responsive web
     Then I click on "Redirect Link" link with responsive
     Examples:
       | browser |
-      |Desktop |
-      |Tablet|
-      |Mobile|
+      | Desktop |
+      | Tablet  |
+      | Mobile  |

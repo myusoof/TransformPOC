@@ -29,7 +29,7 @@ public class WebDriverHelper {
     private static WebDriver driver = null;
     public static String downloadPath = "/home/yusoof/Downloads/"
     public static createWebDriverInstance(String driverType){
-        if(driver == null){
+        //if(driver == null){
             switch (driverType){
                 case "firefox":
                     FirefoxProfile profile = new FirefoxProfile()
@@ -57,7 +57,7 @@ public class WebDriverHelper {
                     driver = new FirefoxDriver();
                     break;
             }
-        }
+        //}
         return driver;
     }
 
