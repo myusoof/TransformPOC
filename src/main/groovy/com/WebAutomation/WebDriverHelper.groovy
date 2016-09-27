@@ -19,6 +19,9 @@ import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.safari.SafariDriver
 import org.openqa.selenium.support.ui.ExpectedCondition
 import org.openqa.selenium.support.ui.WebDriverWait
+import org.openqa.selenium.winium.DesktopOptions
+import org.openqa.selenium.winium.WiniumDriver
+import org.openqa.selenium.winium.WiniumDriverService
 
 import java.util.regex.Pattern
 
@@ -55,6 +58,12 @@ public class WebDriverHelper {
                 case "opera":
                     driver = new OperaDriver();
                     break;
+                case "winium":
+                    DesktopOptions options = new DesktopOptions()
+                    options.setApplicationPath("C:\\WINDOWS\\System32\\notepad.exe")
+                   //WiniumDriverService winiumService = WiniumDriver.createDefaultService(DesktopOptions.class)
+                    driver = new WiniumDriver(new URL("http://localhost:9999"),options)
+                    break
                 default:
                     driver = new FirefoxDriver();
                     break;

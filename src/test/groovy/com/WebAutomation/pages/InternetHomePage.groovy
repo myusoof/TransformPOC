@@ -24,10 +24,7 @@ public class InternetHomePage {
     }
 
     public WebElement redirectLink(){
-        //interJsonElementObject.find {it -> it == browserSize}.redirectLink
-        //interJsonElementObject.find{it -> it.key == "Desktop"}
         WebDriverHelper.ByWhatExt(interJsonElementObject."${browserSize}".redirectlink)
-       // return _driver.findElement(By.xpath(interJsonElementObject."${browserSize}".redirectlink))
         return _driver.findElement(WebDriverHelper.ByWhatExt(interJsonElementObject."${browserSize}".redirectlink))
     }
 
